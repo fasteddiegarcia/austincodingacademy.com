@@ -20,5 +20,4 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-bower', '~> 1.1', '>= 1.1.5'
    # gem 'jekyll-press', :git => 'https://github.com/michaelcurry/jekyll-press.git'
-   gem 'jekyll-contentblocks'
 end
