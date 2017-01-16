@@ -16,10 +16,9 @@
 // $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
 $brand-primary:         #004566 !default;
-$brand-secondary:       #006da3 !default;
 $brand-success:         #f8b232 !default;
 $brand-info:            #4ebdec !default;
-// $brand-warning:         #f0ad4e !default;
+$brand-warning:         #006da3 !default;
 // $brand-danger:          #d9534f !default;
 
 
@@ -30,14 +29,14 @@ $brand-info:            #4ebdec !default;
 //** Background color for `<body>`.
 // $body-bg:               #fff !default;
 //** Global text color on `<body>`.
-// $text-color:            $gray-dark !default;
+$text-color:            $brand-primary !default;
 
 //** Global textual link color.
-// $link-color:            $brand-primary !default;
+$link-color:            $brand-success !default;
 //** Link hover color set via `darken()` function.
 // $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
-// $link-hover-decoration: underline !default;
+$link-hover-decoration: none !default;
 
 
 //== Typography
@@ -305,8 +304,8 @@ $border-radius-small:       0px !default;
 
 // Medium screen / desktop
 //** Deprecated `$screen-md` as of v3.0.1
-// $screen-md:                  992px !default;
-// $screen-md-min:              $screen-md !default;
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
 //** Deprecated `$screen-desktop` as of v3.0.1
 // $screen-desktop:             $screen-md-min !default;
 
@@ -333,7 +332,7 @@ $border-radius-small:       0px !default;
 // $grid-gutter-width:         30px !default;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
-// $grid-float-breakpoint:     $screen-sm-min !default;
+$grid-float-breakpoint:     $screen-md-min !default;
 //** Point at which the navbar begins collapsing.
 // $grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
 
@@ -748,7 +747,7 @@ $border-radius-small:       0px !default;
 //##
 
 //** Padding around the thumbnail image
-// $thumbnail-padding:           4px !default;
+$thumbnail-padding:           2px !default;
 //** Thumbnail background color
 // $thumbnail-bg:                $body-bg !default;
 //** Thumbnail border color
@@ -874,4 +873,4 @@ $border-radius-small:       0px !default;
 //** Horizontal line color.
 // $hr-border:                   $gray-lighter !default;
 
-@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables';

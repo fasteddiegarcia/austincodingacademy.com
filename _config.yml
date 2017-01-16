@@ -1,13 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -15,26 +5,37 @@
 # in the templates via {{ site.myvariable }}.
 title: Austin Coding Academy
 email: info@austincodingacademy.com
-description: > # this means to ignore newlines until "baseurl:"
+description:
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://austincodingacademy.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: austincodingacademy
-github_username:  austincodingacademy
+url: https://austincodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
+twitter: https://twitter.com/AustinCoding
+github:  https://github.com/AustinCodingAcademy
+facebook: https://www.facebook.com/AustinCodingAcademy
+instagram: https://www.instagram.com/austincodingacademy
+googleplus: https://plus.google.com/+AustinCodingAcademy
+linkedin: https://www.linkedin.com/company/austin-coding-academy
+google:
+yelp:
+coursereport:
+switchup:
+thinkful:
+phone: (512) 827-8498
+location: 701 Brazos St, 16th Floor, Austin, TX 78701
+location_url: https://goo.gl/maps/Kgtw4DtyH4n
+city: Austin
+paginate: 5
+next_session: January 16th, 2017
+course_amount: $2990
+track_amount: $8970
 
 # Build settings
 markdown: kramdown
+
 gems:
   - jekyll-feed
-  - jekyll-bower
-  # - jekyll-press
 exclude:
   - Gemfile
   - Gemfile.lock
-# jekyll-press:
-#   exclude: '' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
-#   js_options: {}      # js minifier options
-#   css_options: {}     # css minifier options
-#   html_options: {}    # html minifier options

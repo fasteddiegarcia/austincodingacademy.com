@@ -1,0 +1,102 @@
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+$fa-font-path: "/node_modules/font-awesome/fonts" !default;
+$slick-font-path: "/node_modules/slick-carousel/slick/fonts" !default;
+$slick-font-family: "Lato" !default;
+$slick-loader-path: "/node_modules/slick-carousel/slick/" !default;
+
+@import
+  url('https://fonts.googleapis.com/css?family=Lato'),
+  '../node_modules/font-awesome/scss/font-awesome',
+  '../node_modules/slick-carousel/slick/slick.scss',
+  '../node_modules/slick-carousel/slick/slick-theme.scss',
+  '../node_modules/pygments-rouge-css/github',
+  'variables',
+  'bootstrap',
+  'header',
+  'footer',
+  'index',
+  'enterprise',
+  'hire',
+  'faq',
+  'about',
+  'post',
+  'blog',
+  'courses';
+
+// (Your custom CSS Here)
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+[class^="col-"] {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.slick-dots li button:before {
+  color: #ffffff;
+}
+
+.text-success {
+  color: $brand-success;
+}
+
+.text-warning {
+  color: $brand-warning;
+}
+
+.text-primary {
+  color: $brand-primary;
+}
+
+.bg-primary {
+  background-color: $brand-primary;
+}
+
+.bg-warning  {
+  background-color: $brand-warning;
+}
+
+.bg-success {
+  background-color: $brand-success;
+}

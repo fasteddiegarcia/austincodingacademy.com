@@ -1,11 +1,11 @@
 <header>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-static-top">
     <div class="well well-sm text-right">
       <div class="container">
-        <a href="https://goo.gl/maps/Kgtw4DtyH4n" class="text-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;701 Brazos St, 16th Floor, Austin, TX 78701</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="{{ site.location_url }}" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="#" class="link-white"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;Request Syllabus</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#" class="link-white"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-phone"></i>&nbsp;&nbsp;(512) 827-8498
+        <a href="mailto:{{ site.email }}" class="link-white" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:{{site.phone}}" class="link-white"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{ site.phone }}</a>
       </div>
     </div>
     <div class="container">
@@ -25,22 +25,21 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">ENTERPRISE</a></li>
-          <li><a href="#">HIRE A GRAD</a></li>
+          <li><a href="/enterprise.html">ENTERPRISE</a></li>
+          <li><a href="/hire.html">HIRE A GRAD</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Overview</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Intro - Full Stack Web Development 101</a></li>
-              <li><a href="#">Intermediate - Full Stack Web Development 102</a></li>
-              <li><a href="#">Advanced - Full Stack Web Development 103</a></li>
+              <li><a href="/courses.html">Overview</a></li>
+              <li><a href="/intro.html">Intro - Full Stack Web Development 101</a></li>
+              <li><a href="/intermediate.html">Intermediate - Full Stack Web Development 102</a></li>
+              <li><a href="/advanced.html">Advanced - Full Stack Web Development 103</a></li>
             </ul>
           </li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#" class="btn btn-success">APPLY NOW</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/blog.html">BLOG</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+          <li><a href="/application.html" class="btn btn-success">APPLY NOW</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
