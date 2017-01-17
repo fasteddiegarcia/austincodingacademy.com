@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>What Is JSON and What Is JSON Used For?</title>
+  <link href="/assets/stylesheets/app.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="well well-sm text-right">
+      <div class="container">
+        <a href="https://goo.gl/maps/Kgtw4DtyH4n" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;701 Brazos St, 16th Floor, Austin, TX 78701</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="link-white"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;Request Syllabus</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="mailto:info@austincodingacademy.com" class="link-white" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:(512) 827-8498" class="link-white"><i class="fa fa-phone"></i>&nbsp;&nbsp;(512) 827-8498</a>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img alt="Brand" src="/assets/images/ACA_standard_stacked.png">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/enterprise.html">ENTERPRISE</a></li>
+          <li><a href="/hire.html">HIRE A GRAD</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/courses.html">Overview</a></li>
+              <li><a href="/intro.html">Intro - Full Stack Web Development 101</a></li>
+              <li><a href="/intermediate.html">Intermediate - Full Stack Web Development 102</a></li>
+              <li><a href="/advanced.html">Advanced - Full Stack Web Development 103</a></li>
+            </ul>
+          </li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/blog.html">BLOG</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+          <li><a href="/application.html" class="btn btn-success">APPLY NOW</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
+
+  <main>
+    <div id="post">
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h1>What Is JSON and What Is JSON Used For?</h1>
+              <br />
+              <h1 id="what-is-json-and-what-is-it-used-for">What is JSON and What is it used for?</h1>
+
+<p>By Joseph McCullough</p>
+
+<p>Whether you are a front end or back end developer, understanding the purpose and uses of JSON will enable you to easily add stunning functionality to your web applications. Knowing when to use JSON is practically a prerequisite for any web development position.</p>
+
+<p>WHAT EXACTLY IS JSON?
+JSON stands for JavaScript Object Notation. JSON is a lightweight data-interchange format. We can represent any data in the JSON format if we can boil down the data to its core attributes.</p>
+
+<p>WHAT DOES JSON LOOK LIKE?</p>
+
+<p>Suppose we’re developing software for a grocery store. We’ve been tasked with periodically sending the store’s inventory to a centralized server. The store’s inventory consists of “products”. And each product has the following attributes:</p>
+
+<p>product name
+price
+number in stock
+Data for a few example products are listed below:</p>
+
+<p>2 Liter Dr. Pepper
+Price: $1.99
+Quantity in stock: 10</p>
+
+<p>Snickers
+Price: $0.99
+Quantity in stock: 5</p>
+
+<p>Bottled Water
+Price: $1.49
+Quantity in stock: 8</p>
+
+<p>Here’s how that data would look represented as JSON[/cs_text][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][x_code]{
+“inventory”: {
+“products”: [
+{
+“name”: “Dr. Pepper 2 Liter”,
+“price”: 1.99,
+“quantity”: 10
+},
+{
+“name”: “Snickers”,
+“price”: 0.99,
+“quantity”: 5
+},
+{
+“name”: “Bottled Water”,
+“price”: 1.49,
+“quantity”: 8
+}
+]
+}
+}[/x_code][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][cs_text]</p>
+
+<h1 id="why-is-json-useful">WHY IS JSON USEFUL?</h1>
+
+<p>JSON is language-agnostic. Even though JSON stands for JavaScript Object Notation, many languages beyond JavaScript understand JSON. There are numerous languages that contain libraries for not only representing data in the JSON format (known as JSON encoding), but also for taking JSON and converting the JSON into data within the program (known as JSON decoding). Some languages with JSON support (either natively or through libraries) that come to mind include</p>
+
+<p>JavaScript
+Python
+Ruby
+Go
+C/C++
+Java
+And wayyyyyyyy more!</p>
+
+<p>Consequently, it’s easy to have programs written in different languages communicate with each other. If a server written in Python wants to send data to a server written in Java, the Python server just has to JSON encode any data it wants to send. Then the Java Server, upon receiving the JSON, only has to JSON decode the string in order to have access to the data items within the JSON. Generally, the encoding and decoding processes are extremely simple.</p>
+
+<p>In Python, for example, the process for converting a JSON string into its associated data takes only a couple of lines of code![/cs_text][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][x_code]»&gt; import json
+»&gt; json_str = ‘{“x”: 15,”y”: 30}’
+»&gt; data = json.loads(json_str)
+»&gt; data[‘x’] + data[‘y’]
+45</p>
+
+<p><strong>Here’s the same operation in PHP</strong></p>
+
+<!-- ?php $json_str = '{"x": 15,"y": 30}'; $data = json_decode($json_str); echo $data->x + $data->y;<br ? -->
+<p>// 45
+?&gt;[/x_code][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][cs_text]</p>
+
+<h1 id="where-is-json-used">WHERE IS JSON USED?</h1>
+
+<p>JSON can be used in nearly any scenario where two services are communicating with each other. All that’s required is that</p>
+
+<p>the service sending the data can represent the data in the JSON format
+the service recieving the data can convert data represented at JSON into data usable throughout the application.
+In web development, JSON is used to facilitate communication to both internal and external services.</p>
+
+<p><strong>Internal communication</strong></p>
+
+<p>In order to create a fluid user experience, web applications generally use JavaScript to fetch data from an internal server and live-update the page with the retrieved data. This strategy is known as AJAX. To quote the <a href="https://developer.mozilla.org/en-US/docs/AJAX">Mozilla Developer documentation</a> regarding AJAX,</p>
+
+<p>[When AJAX is used], web applications are able to make quick, incremental updates to the user interface without reloading the entire browser page. This makes the application faster and more responsive to user actions.</p>
+
+<p>Although X in Ajax stands for XML, JSON is used more than XML nowadays because of its many advantages such as being lighter and a part of JavaScript.</p>
+
+<p><strong>External communication</strong></p>
+
+<p>Many REST APIs, which provide awesome functionality to web applications, use JSON as the primary means of communication. Take <a href="https://stripe.com">Stripe</a> for example. Stripe uses JSON as the way to send responses to application developers about the status of credit card transactions. In the <a href="https://stripe.com/docs/api/curl#charge_object">Stripe documentation</a>, stripe provides an example credit card charge response so developers can predict the JSON structure their applications will recieve.</p>
+
+<p>As another example, <a href="https://www.twilio.com/">Twilio</a> is an SMS gateway provider that provides a simple REST API so developers can make their applications send text messages or make phone calls. In the <a href="https://www.twilio.com/docs/api/rest/sending-messages#example-1">Twilio documentation</a>, you can see an example JSON response developers can expect once they’ve requested that Twilio send a text message to a phone.</p>
+
+<p>Thus the combination of REST APIs and JSON means you don’t have to know how the financial sector works in order to make your application accept credit cards, nor do you need insight into the intricacies of the Telecom industry to make your application send text messages to users - you just have to understand how to send JSON and receieve JSON!</p>
+
+<p><strong>JSON REST API directory</strong></p>
+
+<p>The folks over at ProgrammableWeb have curated a list of REST APIs that communicate via JSON. Check out <a href="http://www.programmableweb.com/category/all/apis?data_format=21173">their directory</a> to see the functionality you can add to your application just by sending and receiving JSON!</p>
+
+<h1 id="are-there-alternatives-to-json">ARE THERE ALTERNATIVES TO JSON?</h1>
+
+<p>XML is an alternative mechanism for describing data. XML was the previously technology of choice for sending data through web services. As JSON’s simplicity caused its popularity to rise, many developers realized XML’s capabilities were overkill for the task of simply sending and recieving small amounts of data.</p>
+
+<p>The Udemy Blog has a great article covering the <a href="https://blog.udemy.com/json-vs-xml/">similarities and differences</a> between XML and JSON</p>
+
+<p><strong>SUMMARY</strong>
+Thanks to the simplicity of JSON, it’s now easier than ever to facilitate communication between different web applications - regardless of what programming languages were used to write the applications.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+  </main>
+  <footer>
+  <nav class="navbar navbar-default navbar-static-bottom">
+    <div class="container">
+      <div class='row'>
+        <div class="col-xs-12 text-center">
+          <ul class="list-inline lead">
+            <li><small><a href="#">APPLICATION</a></small></li>
+            <li><small><a href="#">BLOG</a></small></li>
+            <li><small><a href="#">COURSES</a></small></li>
+            <li><small><a href="#">EMPLOYERS</a></small></li>
+            <li><small><a href="#">FAQ</a></small></li>
+            <li><small><a href="#">PRESS</a></small></li>
+          </ul>
+          <ul class="list-inline">
+            <li><a href="https://www.facebook.com/AustinCodingAcademy"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+            <li><a href="https://plus.google.com/+AustinCodingAcademy"><i class="fa fa-google-plus-official fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/austincodingacademy"><i class="fa fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/AustinCoding"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/austin-coding-academy"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          Austin Coding Academy
+          <br />
+          &copy; 2017
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+
+  <!-- Start of Rocket.Chat Livechat Script -->
+  <script type="text/javascript">
+  (function(w, d, s, u) {
+  	w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+  	var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+  	j.async = true; j.src = 'https://chat.austincodingacademy.com/packages/rocketchat_livechat/assets/rocket-livechat.js';
+  	h.parentNode.insertBefore(j, h);
+  })(window, document, 'script', 'https://chat.austincodingacademy.com/livechat');
+  </script>
+  <!-- End of Rocket.Chat Livechat Script -->
+  <script type="text/javascript" src="/assets/javascripts/app.js"></script>
+  
+</body>
+</html>

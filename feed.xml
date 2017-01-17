@@ -1,78 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-17T16:46:42-06:00</updated><id>http://localhost:4000//</id><title type="html">Austin Coding Academy</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">How To Create a Digital JavaScript Clock In Three Easy Steps</title><link href="http://localhost:4000/uncategorized/2016/11/29/javascript-clock-three-steps.html" rel="alternate" type="text/html" title="How To Create a Digital JavaScript Clock In Three Easy Steps" /><published>2016-11-29T21:43:09-06:00</published><updated>2016-11-29T21:43:09-06:00</updated><id>http://localhost:4000/uncategorized/2016/11/29/javascript-clock-three-steps</id><content type="html" xml:base="http://localhost:4000/uncategorized/2016/11/29/javascript-clock-three-steps.html">In this intermediate tutorial, you will learn how to create a digital JavaScript clock for your web page in three easy steps.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://austincodingacademy.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="https://austincodingacademy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://austincodingacademy.com/" rel="alternate" type="text/html" /><updated>2017-01-17T17:49:53-06:00</updated><id>https://austincodingacademy.com//</id><title type="html">Austin Coding Academy</title><subtitle>At Austin Coding Academy, our job is to bring students to job-ready proficiency. We offer three levels of classes for students: Intro, Intermediate, and Advanced.
+</subtitle><entry><title type="html">How To Create a Digital JavaScript Clock In Three Easy Steps</title><link href="https://austincodingacademy.com/uncategorized/2016/11/29/javascript-clock-three-steps.html" rel="alternate" type="text/html" title="How To Create a Digital JavaScript Clock In Three Easy Steps" /><published>2016-11-29T21:43:09-06:00</published><updated>2016-11-29T21:43:09-06:00</updated><id>https://austincodingacademy.com/uncategorized/2016/11/29/javascript-clock-three-steps</id><content type="html" xml:base="https://austincodingacademy.com/uncategorized/2016/11/29/javascript-clock-three-steps.html">&lt;p&gt;In this intermediate tutorial, you will learn how to create a digital JavaScript clock for your web page in three easy steps.&lt;/p&gt;
 
-Many, many moons ago in a state of mind far, far away from my current, I was introduced to the Back to the Future movies, and boy did it leave an impression on my young, bizarre mind.
+&lt;p&gt;Many, many moons ago in a state of mind far, far away from my current, I was introduced to the Back to the Future movies, and boy did it leave an impression on my young, bizarre mind.&lt;/p&gt;
 
-While I won't go as far as to say that it made me the man I am today, it did inspire my passion for time travel, and teach me some valuable &quot;adulting&quot; skills, like PG-13-level cussing, sliding sunglasses down the bridge of my nose like a bad ass, and, most importantly, keeping track of time and being punctual.
+&lt;p&gt;While I won’t go as far as to say that it made me the man I am today, it did inspire my passion for time travel, and teach me some valuable “adulting” skills, like PG-13-level cussing, sliding sunglasses down the bridge of my nose like a bad ass, and, most importantly, keeping track of time and being punctual.&lt;/p&gt;
 
-After that fateful day, I was obsessed with time, and more specifically, being on time. I wore a watch everywhere, even in the shower. My first watch came from a happy meal, and while it was chewed up by my dog within days, I was never discouraged. I still have most of my watches from throughout the years, those of which survived my wife's meticulous purging of unacceptable nostalgia. She really does bring out the best in me... (love you, babe!)
+&lt;p&gt;After that fateful day, I was obsessed with time, and more specifically, being on time. I wore a watch everywhere, even in the shower. My first watch came from a happy meal, and while it was chewed up by my dog within days, I was never discouraged. I still have most of my watches from throughout the years, those of which survived my wife’s meticulous purging of unacceptable nostalgia. She really does bring out the best in me… (love you, babe!)&lt;/p&gt;
 
-Whether or not you share my affinity for Back to the Future and punctuality is beside the point. You're here for the JavaScript, so let's fire up the flux capacitor and take this code to 88 MPH, shall we?!
+&lt;p&gt;Whether or not you share my affinity for Back to the Future and punctuality is beside the point. You’re here for the JavaScript, so let’s fire up the flux capacitor and take this code to 88 MPH, shall we?!&lt;/p&gt;
 
-**&quot;WHAT THE HELL IS A GIGAWATT?!&quot; LET'S GET STARTED...**
+&lt;p&gt;&lt;strong&gt;“WHAT THE HELL IS A GIGAWATT?!” LET’S GET STARTED…&lt;/strong&gt;&lt;/p&gt;
 
-One of the main recurring themes in the Back to the Future trilogy looks at how changing past events manipulate future history, and time itself. This isn't quite a direct parallel with JavaScript, but for the sake of this tutorial, let's connect the dots.
+&lt;p&gt;One of the main recurring themes in the Back to the Future trilogy looks at how changing past events manipulate future history, and time itself. This isn’t quite a direct parallel with JavaScript, but for the sake of this tutorial, let’s connect the dots.&lt;/p&gt;
 
-We use JavaScript to manipulate a web page in real-time, listening to events that trigger a change in an HTML element or provide interactive elements on a page, like a working digital clock. This intermediate-level tutorial on JavaScript shows you how to do just that. And if my calculations are correct, once this code is properly set up on your webpage, you are going to see some seriously cool stuff.
+&lt;p&gt;We use JavaScript to manipulate a web page in real-time, listening to events that trigger a change in an HTML element or provide interactive elements on a page, like a working digital clock. This intermediate-level tutorial on JavaScript shows you how to do just that. And if my calculations are correct, once this code is properly set up on your webpage, you are going to see some seriously cool stuff.&lt;/p&gt;
 
-[/cs_text][x_custom_headline level=&quot;h2&quot; looks_like=&quot;h3&quot; accent=&quot;false&quot;]STEP 1: HOW TO GET THE CURRENT TIME
-[/x_custom_headline][cs_text]The first step we need to do is retrieve the current time. We can do this by using JavaScript's Date class. First, create a new Date object with no parameters, which gives us a Date object containing the current date and time on the web visitor's computer:
+&lt;p&gt;[/cs_text][x_custom_headline level=”h2” looks_like=”h3” accent=”false”]STEP 1: HOW TO GET THE CURRENT TIME
+[/x_custom_headline][cs_text]The first step we need to do is retrieve the current time. We can do this by using JavaScript’s Date class. First, create a new Date object with no parameters, which gives us a Date object containing the current date and time on the web visitor’s computer:&lt;/p&gt;
 
-`var currentTime = new Date();`
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var currentTime = new Date();&lt;/code&gt;&lt;/p&gt;
 
-Next, we extract the hours, minutes, and seconds components of the current time from our Date object.
-`var currentHours = currentTime.getHours();
+&lt;p&gt;Next, we extract the hours, minutes, and seconds components of the current time from our Date object.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;var currentHours = currentTime.getHours();
 var currentMinutes = currentTime.getMinutes();
-var currentSeconds = currentTime.getSeconds();`[/cs_text][x_custom_headline level=&quot;h2&quot; looks_like=&quot;h3&quot; accent=&quot;false&quot;]STEP 2: HOW TO FORMAT THE TIME
-[/x_custom_headline][cs_text]We now have the three main values of time, so let's format them into a string for our web page. For this tutorial, we will format for a 12-hour clock, using &quot;HH:MM:SS XX&quot;, where XX is either &quot;AM&quot; or &quot;PM&quot;.
+var currentSeconds = currentTime.getSeconds();&lt;/code&gt;[/cs_text][x_custom_headline level=”h2” looks_like=”h3” accent=”false”]STEP 2: HOW TO FORMAT THE TIME
+[/x_custom_headline][cs_text]We now have the three main values of time, so let’s format them into a string for our web page. For this tutorial, we will format for a 12-hour clock, using “HH:MM:SS XX”, where XX is either “AM” or “PM”.&lt;/p&gt;
 
-First, we'll add a leading zero to the minutes and seconds, if required:
+&lt;p&gt;First, we’ll add a leading zero to the minutes and seconds, if required:&lt;/p&gt;
 
-`currentMinutes = ( currentMinutes &lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentMinutes;
-currentSeconds = ( currentSeconds &lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentSeconds;`
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;currentMinutes = ( currentMinutes &amp;lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentMinutes;
+currentSeconds = ( currentSeconds &amp;lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentSeconds;&lt;/code&gt;&lt;/p&gt;
 
-The ? and : symbols used above comprise the ternary operator, a special operator that returns the value before the colon if the condition before the query (?) is true, or the value after the colon if the condition is false. It's a great way to write a shorthand &quot;if&quot; block if you nneed to return a single value.
+&lt;p&gt;The ? and : symbols used above comprise the ternary operator, a special operator that returns the value before the colon if the condition before the query (?) is true, or the value after the colon if the condition is false. It’s a great way to write a shorthand “if” block if you nneed to return a single value.&lt;/p&gt;
 
-Next, let's set a new variable, timeOfDay, to &quot;AM&quot; or &quot;PM&quot;, and subtract 12 from the hours component in order to convert it to a 12-hour format. We will also want the hours component to show &quot;12&quot; instead of &quot;0&quot;, so we need to add a check for this as well:
+&lt;p&gt;Next, let’s set a new variable, timeOfDay, to “AM” or “PM”, and subtract 12 from the hours component in order to convert it to a 12-hour format. We will also want the hours component to show “12” instead of “0”, so we need to add a check for this as well:&lt;/p&gt;
 
-`var timeOfDay = ( currentHours &lt; 12 ) ? &quot;AM&quot; : &quot;PM&quot;;`
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var timeOfDay = ( currentHours &amp;lt; 12 ) ? &quot;AM&quot; : &quot;PM&quot;;&lt;/code&gt;&lt;/p&gt;
 
-currentHours = ( currentHours &lt; 12 ) ? currentHours - 12 : currentHours;
+&lt;p&gt;currentHours = ( currentHours &amp;lt; 12 ) ? currentHours - 12 : currentHours;&lt;/p&gt;
 
-currentHours = ( currentHours == 0 ) ? 12 : currentHours;
+&lt;p&gt;currentHours = ( currentHours == 0 ) ? 12 : currentHours;&lt;/p&gt;
 
-Now, let's connect all our components into a single string, using the format &quot;HH:MM:SS XX&quot;.
+&lt;p&gt;Now, let’s connect all our components into a single string, using the format “HH:MM:SS XX”.&lt;/p&gt;
 
-var currentTimeString = currentHours + &quot;:&quot; + currentMinutes + &quot;:&quot; + currentSeconds + &quot; &quot; + timeOfDay;
+&lt;p&gt;var currentTimeString = currentHours + “:” + currentMinutes + “:” + currentSeconds + “ “ + timeOfDay;&lt;/p&gt;
 
-Now that we have our time string ready for all the world to see, we need to add it to our web page. To do this, we need to create a span container in your HTML to hold the time display.
+&lt;p&gt;Now that we have our time string ready for all the world to see, we need to add it to our web page. To do this, we need to create a span container in your HTML to hold the time display.&lt;/p&gt;
 
-`&lt;span id=&quot;clock&quot;&gt;&amp;amp;nsbsp;&amp;gt;span&amp;gt;`
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span id=&quot;clock&quot;&amp;gt;&amp;amp;amp;nsbsp;&amp;amp;gt;span&amp;amp;gt;&lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;I know what you’re thinking, “Why the @#$% did you put the $nsbsp; in there?!”. By placing the inside the span element, we created a child text node for the span in the DOM. Place this span on your page where you would like the JavaScript clock to appear.&lt;/p&gt;
 
-I know what you're thinking, &quot;Why the @#$% did you put the $nsbsp; in there?!&quot;. By placing the inside the span element, we created a child text node for the span in the DOM. Place this span on your page where you would like the JavaScript clock to appear.
+&lt;p&gt;We can then populate the span container with the time string by retrieving this node and then setting its NodeValue property. Check it out:&lt;/p&gt;
 
-We can then populate the span container with the time string by retrieving this node and then setting its NodeValue property. Check it out:
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;document.getElementById(&quot;clock&quot;).firstChild.nodeValue = currentTimeString;&lt;/code&gt;&lt;/p&gt;
 
-`document.getElementById(&quot;clock&quot;).firstChild.nodeValue = currentTimeString;`
+&lt;p&gt;&lt;strong&gt;“YOU BUILT A TIME MACHINE… OUT OF A DELOREAN?!”&lt;/strong&gt;
+Now that we’ve finished our JavaScript code, we need to wrap it in a JavaScript function, updateClock() and place it in the head element of our web page:&lt;/p&gt;
 
-**&quot;YOU BUILT A TIME MACHINE... OUT OF A DELOREAN?!&quot;**
-Now that we've finished our JavaScript code, we need to wrap it in a JavaScript function, updateClock() and place it in the head element of our web page:
-
-`&lt;script type=&quot;text/javascript&quot;&gt;&lt;br /&gt;
-&lt;!--&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;`&lt;script type=&quot;text/javascript&quot;&gt;&lt;br /&gt;
+&amp;lt;!--&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;&lt;/script&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;function updateClock ( )&lt;br /&gt;
 {&lt;br /&gt;
- var currentTime = new Date ( );&lt;/p&gt;
+ var currentTime = new Date ( );&amp;lt;/p&amp;gt;
 &lt;p&gt; var currentHours = currentTime.getHours ( );&lt;br /&gt;
  var currentMinutes = currentTime.getMinutes ( );&lt;br /&gt;
  var currentSeconds = currentTime.getSeconds ( );&lt;/p&gt;
 &lt;p&gt; // Pad the minutes and seconds with leading zeros, if required&lt;br /&gt;
-currentMinutes = ( currentMinutes &lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentMinutes;&lt;br /&gt;
-currentSeconds = ( currentSeconds &lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentSeconds;&lt;/p&gt;
+currentMinutes = ( currentMinutes &amp;lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentMinutes;&lt;br /&gt;
+currentSeconds = ( currentSeconds &amp;lt; 10 ? &quot;0&quot; : &quot;&quot; ) + currentSeconds;&lt;/p&gt;
 &lt;p&gt; // Choose either &quot;AM&quot; or &quot;PM&quot; as appropriate&lt;br /&gt;
- var timeOfDay = ( currentHours &lt; 12 ) ? &quot;AM&quot; : &quot;PM&quot;;&lt;/p&gt;
+ var timeOfDay = ( currentHours &amp;lt; 12 ) ? &quot;AM&quot; : &quot;PM&quot;;&lt;/p&gt;
 &lt;p&gt; // Convert the hours component to 12-hour format if needed&lt;br /&gt;
- currentHours = ( currentHours &gt; 12 ) ? currentHours - 12 : currentHours;&lt;/p&gt;
+ currentHours = ( currentHours &amp;gt; 12 ) ? currentHours - 12 : currentHours;&lt;/p&gt;
 &lt;p&gt; // Convert an hours component of &quot;0&quot; to &quot;12&quot;&lt;br /&gt;
  currentHours = ( currentHours == 0 ) ? 12 : currentHours;&lt;/p&gt;
 &lt;p&gt; // Compose the string for display&lt;br /&gt;
@@ -80,8 +80,8 @@ currentSeconds = ( currentSeconds &lt; 10 ? &quot;0&quot; : &quot;&quot; ) + cur
 &lt;p&gt;// Update the time display&lt;br /&gt;
  document.getElementById(&quot;clock&quot;).firstChild.nodeValue = currentTimeString;&lt;br /&gt;
 }&lt;/p&gt;
-&lt;p&gt;// --&gt;&lt;br /&gt;
-&lt;/script&gt;`
+&lt;p&gt;// --&amp;gt;&lt;br /&gt;
+&amp;lt;/script&amp;gt;`
 
 In order to make our JavaScript clock update every second, we need to use the Window.setInterval() method from within the page's body tag to call our updateClock() function once per second. We also need to call updateClock() the moment the page loads, so that clock appears immediately. Simply drop this code into your body tag, like this:
 
@@ -97,4 +97,586 @@ Cheers,
 
 Master Gonzo
 
-&quot;Come for the code, stay for the pop culture nostalgia.&quot;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">In this intermediate tutorial, you will learn how to create a digital JavaScript clock for your web page in three easy steps.</summary></entry></feed>
+&quot;Come for the code, stay for the pop culture nostalgia.&quot;
+&lt;/p&gt;&lt;/code&gt;&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">In this intermediate tutorial, you will learn how to create a digital JavaScript clock for your web page in three easy steps.</summary></entry><entry><title type="html">Top 5 Beginner HTML Questions</title><link href="https://austincodingacademy.com/2016/11/29/beginner-html-questions.html" rel="alternate" type="text/html" title="Top 5 Beginner HTML Questions" /><published>2016-11-29T20:09:09-06:00</published><updated>2016-11-29T20:09:09-06:00</updated><id>https://austincodingacademy.com/2016/11/29/beginner-html-questions</id><content type="html" xml:base="https://austincodingacademy.com/2016/11/29/beginner-html-questions.html">&lt;h4 id=&quot;below-are-a-list-of-the-top-5-intro-to-htmlcss-questions-we-get-at-austin-coding-academy&quot;&gt;Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy&lt;/h4&gt;
+&lt;p&gt;Answers provided by Joe McCullough&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question: WHAT IS THE POINT OF NON-VISIBLE TAGS, SUCH AS &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Some elements, such as the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; element, are intended to provide
+metadata for the HTML document.
+(&lt;a href=&quot;http://whatis.techtarget.com/definition/metadata&quot;&gt;What is metadata?&lt;/a&gt;).
+Other elements, such as the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt; element, instruct the browser to
+include external resources like CSS files.&lt;/p&gt;
+
+&lt;p&gt;As another example, the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; element allows us to specify many properties of our HTML document.
+(&lt;a href=&quot;http://www.tutorialspoint.com/html/html_meta_tags.htm&quot;&gt;Example usage of the meta tag&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Further reading: &lt;a href=&quot;http://www.w3schools.com/html/html_head.asp&quot;&gt;W3Schools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: WHEN TO USE THE &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; TAG VS THE &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; TAG?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: A paragraph represents a paragraph of text. A paragraph of text should contain related ideas. A new paragraph should be opened if the upcoming content is sufficiently different from the content of the current paragraph.&lt;/p&gt;
+
+&lt;p&gt;What qualifies as “sufficiently different” is relative to the subject matter and up to the best judgement of the HTML author.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+  Hello! My name is Joe. I like playing 3rd strike, programming, and my cat, Odin.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+  I have been programming since 2009. My first language was PHP. After exploring the back end, I decided I wanted to also learn JavaScript. In the end, Python ended up being my favorite language.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+  Odin has been my best friend and companion since I was 16.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A tag is a line break. As stated in the official HTML5 specification,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“&lt;code class=&quot;highlighter-rouge&quot;&gt;br&lt;/code&gt; elements must be used only for line breaks that are actually part of the content, as in poems or addresses.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This means you should not use the tag to force a line within a paragraph. If you wish to force a line within a paragraph, you probably just need to close your current paragraph and open another one.&lt;/p&gt;
+
+&lt;p&gt;Citations:
+* &lt;a href=&quot;http://www.w3.org/TR/html5/grouping-content.html#the-p-element&quot;&gt;W3 &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; element&lt;/a&gt;
+* &lt;a href=&quot;http://www.w3.org/TR/html5/text-level-semantics.html#the-br-element&quot;&gt;w3 br element spec&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: WHAT’S THE DIFFERENCE BETWEEN ARTICLES AND SECTIONS?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Read &lt;a href=&quot;https://www.iandevlin.com/blog/2011/04/html5/html5-section-or-article&quot;&gt;HTML5 - Section or Article?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: WHY SHOULDN’T YOU USE &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt; TAGS TO LAYOUT A PAGE?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Read &lt;a href=&quot;http://vanseodesign.com/css/css-divs-vs-tables/&quot;&gt;CSS vs Tables: The Debate That Won’t Die&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: HOW CAN I QUICKLY FIGURE OUT WHY MY CSS ISN’T WORKING AS INTENDED?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Check out this quick and super helpful tutorial on using the &lt;a href=&quot;https://www.youtube.com/watch?v=Z3HGJsNLQ1E&quot;&gt;Chrome DevTools for CSS Debugging&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Below are a list of the top 5 Intro to HTML/CSS questions we get at Austin Coding Academy
+Answers provided by Joe McCullough</summary></entry><entry><title type="html">5 Free Coding Websites for Beginners - Learn How to Code without the Cost</title><link href="https://austincodingacademy.com/learn%20to%20code/2016/11/29/5-free-coding-websites-for-beginners-learn-how-to-code-without-the-cost.html" rel="alternate" type="text/html" title="5 Free Coding Websites for Beginners - Learn How to Code without the Cost" /><published>2016-11-29T20:05:11-06:00</published><updated>2016-11-29T20:05:11-06:00</updated><id>https://austincodingacademy.com/learn%20to%20code/2016/11/29/5-free-coding-websites-for-beginners-learn-how-to-code-without-the-cost</id><content type="html" xml:base="https://austincodingacademy.com/learn%20to%20code/2016/11/29/5-free-coding-websites-for-beginners-learn-how-to-code-without-the-cost.html">&lt;p&gt;This article will cover some great coding websites for beginners and where to find them.&lt;/p&gt;
+
+&lt;p&gt;Everyone has turning points in their lives, and many times we don’t realize we’ve made them until we are well down the road. Other times, we face a tough decision knowing full well that it could take us down two distinctly different paths, altering our lives all together and sending significant ripples through the space-time continuum, opening new dimensions that expose humanity to an otherwise oblivious and belligerent alien race, who in turn decide our planet is perfect for a new galactic freeway-side diner… and you’re on the menu! No pressure, homie.&lt;/p&gt;
+
+&lt;p&gt;But I digress. At this time last year, I faced a tough decision in my life. I was laid off, with a young family, and a burnt-out candle of a career. I spent the last eight years in Austin’s digital marketing scene, but it wasn’t satisfying, like that feeling you get sitting silently in a public restroom reflecting upon your regrettable choice of Chinese food, all the while listening to the guy in the stall next to you talk to his mother on his cell phone… “You’re a grown man, Chuck!” Get me outta here…&lt;/p&gt;
+
+&lt;p&gt;My mind was thirsty for a new challenge, something that balanced creativity, critical thinking, and a technically-sustainable skill. I wanted a new career path that was rewarding, not only financially but intellectually as well. I wanted to create and build stuff on the internet. I had taught myself basic HTML at past jobs – editing email templates with new images, copy, and updating simple styling. After a few meet-ups, online chats and coffee talks within my professional network, I was convinced that learning how to code was a big part of my answer.&lt;/p&gt;
+
+&lt;p&gt;The next step from there was to look for a more structured learning model, but I was unemployed so it needed to be cheap. Or free. Luckily, there are now ways to get introduced to computer programming without the cost of attending a University or intensive trade school. Many coding websites for beginners now offer free lessons and tutorials for learning how to code.&lt;/p&gt;
+
+&lt;p&gt;Whether you are looking to advance your career, supplement your skill set, or just love to learn, these five websites below offer instant and interactive courses to teach you programming languages… for free. Trust me, I’m not only a sponsor (not really), I’m also a member (really)…&lt;/p&gt;
+
+&lt;h1 id=&quot;codecademyhttpswwwcodecademycom&quot;&gt;&lt;a href=&quot;https://www.codecademy.com/&quot;&gt;&lt;strong&gt;CODECADEMY&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;By far the most well-known of the coding websites for beginners on this list, Codecademy.com offers well-structured, interactive courses covering the basics in Web Fundamentals, JavaScript, JQuery, Python, PHP, Ruby and APIs.&lt;/p&gt;
+
+&lt;p&gt;Inside each course, you are given simple-to-understand instructions, helpful tips, and a user-friendly console to test out if your code is acceptable. If you make mistakes, you are given an error message and hints for completing each lesson. It’s like having an instructor looking over your shoulder the entire time.&lt;/p&gt;
+
+&lt;p&gt;The greatest part of Codecademy is that all the courses are free to use, but they do offer premium account level for additional projects and advanced tutorials. The site is great for a beginner looking for the structure of traditional coursework.&lt;/p&gt;
+
+&lt;h1 id=&quot;code-avengershttpswwwcodeavengerscom&quot;&gt;&lt;a href=&quot;https://www.codeavengers.com/&quot;&gt;&lt;strong&gt;CODE AVENGERS&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Code Avengers specifically designs their courses to appeal to all ages, so you know that they are going to be fun to work through. When you start a new course, you are asked a few simple questions to better tailor the tutorial to your learning environment, and you can choose whether to use video or text tutorials.&lt;/p&gt;
+
+&lt;p&gt;Right now, they only offer HTML5, CSS3, JavaScript, and Python, but they offer courses specifically designed to teach you how to build web pages, apps, or games as the outcome.&lt;/p&gt;
+
+&lt;p&gt;This site is great for beginners who want to be entertained as they learn. Honestly, who doesn’t?&lt;/p&gt;
+
+&lt;h1 id=&quot;code-schoolhttpswwwcodeschoolcom&quot;&gt;&lt;a href=&quot;https://www.codeschool.com/&quot;&gt;CODE SCHOOL&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Once you’ve worked through Codecademy or Code Avengers, I recommend checking out Code School. They offer more in-depth coursework that provides a clear path and more masterful grasp on each language. Definitely one of our best coding websites for beginners.&lt;/p&gt;
+
+&lt;p&gt;Right now, you can choose one of four paths for becoming an expert:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;HTML/CSS&lt;/li&gt;
+  &lt;li&gt;iOS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nearly all the courses are packed full of well-written screencasts and polished design. The challenges that follow each lesson aren’t for the weak-willed, so consider yourself warned. Luckily there are hints to help you along the way. While most courses are free, some will prompted you to upgrade to a premium account in order to finish the entire course. For a small subscription fee, you get access to all the courses across the entire site.&lt;/p&gt;
+
+&lt;h1 id=&quot;treehousehttpsteamtreehousecom&quot;&gt;&lt;a href=&quot;https://teamtreehouse.com/&quot;&gt;TREEHOUSE&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;If you like to master big concepts by building real projects, such as a responsive website, WordPress theme or application, Treehouse is a great place to learn programming with a purpose. You can build a foundation of knowledge in their vast offering of courses with a video + quiz format, each broken out into stages or modules.&lt;/p&gt;
+
+&lt;p&gt;Once you get past the first stage, however, you will be prompted to upgrade to a premium account for a small subscription fee. If you are serious about your coding chops at this point, this is a good investment as you get access to all 650+ videos.&lt;/p&gt;
+
+&lt;h1 id=&quot;lyndacomhttpwwwlyndacom&quot;&gt;&lt;a href=&quot;http://www.lynda.com/&quot;&gt;LYNDA.COM&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Okay, so I lied to you… Lynda.com might be the most well-known site on this list. Please forgive me. Do we need to hug it out? No? Good. As you may know, Lynda.com is now owned and run by LinkedIn.com, so if you choose this route, consider wearing pants when logged in. Or not…&lt;/p&gt;
+
+&lt;p&gt;As you know or will soon find out, learning a programming language is like getting a tattoo, once you get one, you want to be covered in ink from head to toe by the end of the month… but it never happens. If you want to fall down an endless well of programming languages on Lynda.com, it CAN happen.&lt;/p&gt;
+
+&lt;p&gt;Lynda.com offers over 121 programming languages, 400 different courses and nearly 18,000 video tutorials for their Web Developer track alone.&lt;/p&gt;
+
+&lt;p&gt;Holy shenanigans, Batman, all that for free?! Well, not exactly. You can try it out with a free 10-day trial and get unlimited access to their coursework and featured experts. If you want to make a small investment in continuous learning, check out Lynda.com as an option.&lt;/p&gt;
+
+&lt;p&gt;You can’t get a tattoo on there, but you can permanently “ink” some serious language knowledge in your brain. While this is definitely one of the better coding websites for beginners, this route is definitely for someone who has a developed a little chops and looking to take their coding game to 11.&lt;/p&gt;
+
+&lt;h2 id=&quot;learn-how-to-code-today-save-the-universe-tomorrow&quot;&gt;&lt;strong&gt;LEARN HOW TO CODE TODAY, SAVE THE UNIVERSE TOMORROW&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Whether you are looking to advance your career, supplement your skill set, or just love to learn, these five coding websites for beginners offer instant and interactive courses to teach you programming languages like HTML5, CSS3, JavaScript, Python, PHP, and Ruby. From videos, screencasts and tutorials, you will be taught best practices by industry professionals and programmers.&lt;/p&gt;
+
+&lt;p&gt;Who knows, it could be your first step toward mastering a programming language, changing your entire life, meeting the person of your dreams, raising a few unicorns, and possibly saving the entire “frakking” universe…&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">This article will cover some great coding websites for beginners and where to find them.</summary></entry><entry><title type="html">Running Virtualbox VMS On Soyoustart Ubuntu Servers</title><link href="https://austincodingacademy.com/learn%20to%20code/advanced/2016/11/29/running-virtualbox-vms-on-soyoustart-ubuntu-servers.html" rel="alternate" type="text/html" title="Running Virtualbox VMS On Soyoustart Ubuntu Servers" /><published>2016-11-29T19:45:28-06:00</published><updated>2016-11-29T19:45:28-06:00</updated><id>https://austincodingacademy.com/learn%20to%20code/advanced/2016/11/29/running-virtualbox-vms-on-soyoustart-ubuntu-servers</id><content type="html" xml:base="https://austincodingacademy.com/learn%20to%20code/advanced/2016/11/29/running-virtualbox-vms-on-soyoustart-ubuntu-servers.html">&lt;p&gt;By Joe McCullough&lt;/p&gt;
+
+&lt;p&gt;After installing Ubuntu on my &lt;a href=&quot;https://www.soyoustart.com/us/&quot;&gt;SoYouStart&lt;/a&gt; machine (amazing machines for the price by the way), the first thing I did was attempt to install &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt; and &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot;&gt;VirtualBox&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After attempting to run vagrant up, I was greeted with the following error:[/cs_text][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][x_code]~/vms/server$ vagrant up
+VirtualBox is complaining that the installation is incomplete. Please
+run &lt;code class=&quot;highlighter-rouge&quot;&gt;VBoxManage --version&lt;/code&gt; to see the error message which should contain
+instructions on how to fix this error.[/x_code][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][cs_text]THE PROBLEM ORIGIN
+The origin of the problem is likely that the server was built on a custom kernel. You can verify this by executing the following command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ uname -r&lt;/code&gt;
+If your server was built using the official kernel, it would be of the following form:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3.13.0-45-generic&lt;/code&gt;
+However, the output of the command in my case was&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3.14.32-xxxx-grs-ipv6-64&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THE PROBLEM SOLUTION&lt;/strong&gt;
+Unfortunately, the easiest way to alleviate the issue is to rebuild the server from the SoYouStart dashboard using the correct configuration options. This will involve completely wiping your server, so be sure to back up any data you’ve placed on the server thus far.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;REBUILDING THE SERVER&lt;/strong&gt;
+First, head to your server dashboard. Then click the “Reinstall” button on the top right.&lt;/p&gt;
+
+&lt;p&gt;Choose your desired Ubuntu version. Be sure to check “Custom installation”. Click Next.Unless you have any desire to adjust the partitioning scheme, just check “Yes” beside the &lt;strong&gt;Do you want to install it solely on the first disk?&lt;/strong&gt; prompt. Click Next.Here, you may optionally customize the hostname if you wish. Leaving the hostname field blank is fine as well.&lt;/p&gt;
+
+&lt;p&gt;If you have uploaded an SSH key to your account, you can specify have your SSH keys installed onto the server when its built. (You can access the SSH Keys settings by clicking your name in the top right in the dashboard and selecting SSH Keys). If you do not use SSH keys, SoYouStart will send you an email with the root password once the server has finished building. You can leave the two remaining Post Installation fields blank.&lt;/p&gt;
+
+&lt;p&gt;Now, the part we’ve been waiting for. Be sure to check the &lt;strong&gt;Use the distribution Kernel&lt;/strong&gt; check box. Then click Next.You will be asked to review and confirm.&lt;strong&gt;VERIFYING THE BUILD&lt;/strong&gt;
+After the server rebuilds and you can SSH into the machine, verify the kernel version is of the right form.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ uname -r 3.13.0-45-generic&lt;/code&gt;
+At this point, you should be able to successfully install VirtualBox and Vagrant on your server.&lt;/p&gt;
+
+&lt;p&gt;Have fun building!&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">By Joe McCullough</summary></entry><entry><title type="html">Finding Open Source Projects to Contribute To</title><link href="https://austincodingacademy.com/uncategorized/2016/11/29/finding-open-source-projects-to-contribute-to.html" rel="alternate" type="text/html" title="Finding Open Source Projects to Contribute To" /><published>2016-11-29T19:29:57-06:00</published><updated>2016-11-29T19:29:57-06:00</updated><id>https://austincodingacademy.com/uncategorized/2016/11/29/finding-open-source-projects-to-contribute-to</id><content type="html" xml:base="https://austincodingacademy.com/uncategorized/2016/11/29/finding-open-source-projects-to-contribute-to.html">&lt;h1 id=&quot;how-to-boost-your-credibility-as-a-new-developer-contribute-to-open-source-projects&quot;&gt;How To Boost Your Credibility As a New Developer: Contribute to Open Source Projects&lt;/h1&gt;
+
+&lt;p&gt;By Joe McCullough&lt;/p&gt;
+
+&lt;p&gt;Whether you’re looking for extra programming practice or you’re in the mood to volunteer, contributing to open source projects is certainly a worthy endeavor!&lt;/p&gt;
+
+&lt;p&gt;A common barrier to entry for developers wishing to participate in the open source community is simply the question “What project should I contribute to?”&lt;/p&gt;
+
+&lt;p&gt;Here is an extremely quick tip for finding a plethora of projects both worthy of your time and likely to incorporate your pull requests.&lt;/p&gt;
+
+&lt;h1 id=&quot;finding-a-project&quot;&gt;Finding a Project&lt;/h1&gt;
+
+&lt;p&gt;We’re going to use &lt;a href=&quot;https://github.com/search&quot;&gt;Github’s Search&lt;/a&gt; to help us find an open source project to contribute to. We want the search to meet the following criteria:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We want the project to be in our language of choice&lt;/li&gt;
+  &lt;li&gt;We want the project to have between 250 and 500 stars&lt;/li&gt;
+  &lt;li&gt;We want the project to have been recently updated&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;RATIONALE BEHIND THE SEARCH CRITERIA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A project that has between 250 and 500 stars generally exhibit the following characteristics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The project is relatively mature&lt;/li&gt;
+  &lt;li&gt;The project has a sizeable number of users&lt;/li&gt;
+  &lt;li&gt;The project has most likely received and addressed some issues&lt;/li&gt;
+  &lt;li&gt;The project contributer base is small enough to where you’re likely to interact with the project author directly&lt;/li&gt;
+  &lt;li&gt;The number of pull requests the project receives is most likely low enough to where your pull requests won’t be drowned out by the others&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Picking a project that has recently been updated lets you know that the project is actively maintained, and any pull requests you author have a decent chance of at least being evaluated.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PERFORMING THE SEARCH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;First, head to &lt;a href=&quot;https://github.com/search&quot;&gt;Github’s search page.&lt;/a&gt;
+Next, enter the special flag stars: 250..500 as the search query.
+You can then select your language of choice, and filter by Recently Updated.Browse for a project that interests you, and check out any issues they have open. See if you can make a pull request resolving the issue, or perhaps make a recommendation of your own!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;INSTALLATION DOC IMPROVEMENTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As a newcomer to the project you have chosen to work on, you have a very special quality that can only be harnessed once - you are setting up the system from scratch with no context for the very first time.&lt;/p&gt;
+
+&lt;p&gt;Use this rare opportunity to determine if the installation docs need refinement. Perhaps a dependency not listed in the docs was required to complete the installation, for example. Documentation pull requests are always appreciated and nearly always accepted!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UP FOR GRABS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The website &lt;a href=&quot;http://up-for-grabs.net/#/&quot;&gt;up-for-grabs.net&lt;/a&gt; contains a curated list of projects on Github ready for newcomers to “Jump in”. Project maintainers inform Up-for-grabs of issues available to newcomers by adding a “Jump in” label to the issue on Github.&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">How To Boost Your Credibility As a New Developer: Contribute to Open Source Projects</summary></entry><entry><title type="html">Top Resources for Learning Programming and Coding News</title><link href="https://austincodingacademy.com/uncategorized/2016/11/29/top-resources-for-programming-and-programming-news.html" rel="alternate" type="text/html" title="Top Resources for Learning Programming and Coding News" /><published>2016-11-29T19:10:36-06:00</published><updated>2016-11-29T19:10:36-06:00</updated><id>https://austincodingacademy.com/uncategorized/2016/11/29/top-resources-for-programming-and-programming-news</id><content type="html" xml:base="https://austincodingacademy.com/uncategorized/2016/11/29/top-resources-for-programming-and-programming-news.html">&lt;h1 id=&quot;why-should-i-even-read-programming-news&quot;&gt;&lt;strong&gt;WHY SHOULD I EVEN READ PROGRAMMING NEWS?&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;New libraries, paradigms, projects, and opinions are introduced into the programming world on a daily basis. Discovering these exciting, new contributions can be time consuming without knowing where to look. We’ve compiled a list of resources for programming news so you can stay current and stay informed!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;YOU DON’T HAVE TO BE AN EXPERT TO UNDERSTAND PROGRAMMING NEWS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Very few programming articles are overwhelmingly technical. Authors usually supplement the technical examples with plain English explanations. Even if you don’t fully understand the technical details, you can still grasp the concepts that encompass the article.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IT CAN MAKE YOU A BETTER PROGRAMMER&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reading programming articles considerably improves your ability to make technical decisions in the workplace. Here are just a few questions that become much easier to answer once you keep up with programming news:&lt;/p&gt;
+
+&lt;p&gt;Is there a tool that already does what I’m trying to accomplish?
+Are there any drawbacks to the strategy I’m currently implementing?
+Is the technology I’m using stable and trusted?
+Knowing the answer to these questions can prevent you from reinventing the wheel while also increasing the stability of the project at hand.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IT SHOWS YOU WHERE PROGRAMMING MIGHT BE HEADED&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reading new programming articles, as well as community comments regarding the article contents, can give you insight into the direction programming as a whole may be heading.&lt;/p&gt;
+
+&lt;p&gt;For example, before many of the current front end frameworks became mainstream, the strategy of offloading business logic to an internal REST API was heavily discussed. Many programmers previously viewed REST APIs as something created when you wanted to expose data/functionality to outside users. However, these articles spurred discussions, ultimately leading to a conclusion that a front end that simply serves to consume a private, internal REST API was a good strategy. Now popular front end frameworks such as AngularJS make this strategy incredibly simple to implement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IT’S INSPIRING&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reading the journeys of other programmers can inspire you to keep your head up while on your own path. While some people started coding at an absurdly young age, you’ll find a substantial portion of the community entered the world of programming at a much later point in their lives. Knowing you’re in good company in this universe of “but that just worked yesterday!” and “I can’t believe that little typo broke everything!” can motivate us to keep at it when things seem complicated.&lt;/p&gt;
+
+&lt;h2 id=&quot;programming-news-resources&quot;&gt;&lt;strong&gt;PROGRAMMING NEWS RESOURCES&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;discussion-boards&quot;&gt;&lt;strong&gt;DISCUSSION BOARDS&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/&quot;&gt;/r/programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/webdev/&quot;&gt;/r/webdev&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;twitter-for-programming-news&quot;&gt;Twitter for Programming News&lt;/h3&gt;
+
+&lt;p&gt;Twitter is a surprisingly good place to catch up on programming news! Just do a hashtag search for programming related concepts, and you’ll see tons of links to articles written by other programmers.&lt;/p&gt;
+
+&lt;p&gt;Here are the twitter search results for the &lt;a href=&quot;https://twitter.com/search?f=realtime&amp;amp;q=%23python&quot;&gt;#Python&lt;/a&gt; hashtag.&lt;/p&gt;
+
+&lt;h3 id=&quot;programming-blogs&quot;&gt;PROGRAMMING BLOGS&lt;/h3&gt;
+
+&lt;p&gt;Here is a great &lt;a href=&quot;https://www.quora.com/What-are-the-best-programming-blogs&quot;&gt;list of programming blogs&lt;/a&gt; curated by Quora&lt;/p&gt;
+
+&lt;p&gt;SO GET TO READING!&lt;/p&gt;
+
+&lt;p&gt;Enjoy exploring this vast ecosystem of curly braces, rants, compilers, and every-day people creating things they love.&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">WHY SHOULD I EVEN READ PROGRAMMING NEWS?</summary></entry><entry><title type="html">What the Heck is HTML? An Introduction to HTML</title><link href="https://austincodingacademy.com/uncategorized/2016/11/29/what-the-heck-is-html-an-introduction-to-html.html" rel="alternate" type="text/html" title="What the Heck is HTML? An Introduction to HTML" /><published>2016-11-29T18:01:44-06:00</published><updated>2016-11-29T18:01:44-06:00</updated><id>https://austincodingacademy.com/uncategorized/2016/11/29/what-the-heck-is-html-an-introduction-to-html</id><content type="html" xml:base="https://austincodingacademy.com/uncategorized/2016/11/29/what-the-heck-is-html-an-introduction-to-html.html">&lt;p&gt;This is the first week in Austin Coding Academy’s spring session, and a slew of new students began down the road to learning front-end web development over the next 10 weeks. That journey starts with an introduction to the basics: HTML and CSS.&lt;/p&gt;
+
+&lt;p&gt;Whether you are a new student, or just a curious learner who has wandered in from Google Street, welcome to the wild world of web development! There’s a lot to learn, so for simplicity’s sake, this post will only cover an introduction to HTML – otherwise known as your new best friend.&lt;/p&gt;
+
+&lt;p&gt;Enough with the small talk, let’s get started with the question we are all secretly asking ourselves (and Google):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What the HELL is HTML?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML - short for &lt;strong&gt;H&lt;/strong&gt;yper &lt;strong&gt;T&lt;/strong&gt;ext &lt;strong&gt;M&lt;/strong&gt;arkup &lt;strong&gt;L&lt;/strong&gt;anguage - is a markup language used to create the structure of a web page.  HTML uses a variety of elements to describe how we want the web page to look like. In order to do this, we add code to the words we want to appear on the page.&lt;/p&gt;
+
+&lt;p&gt;Try visualizing HTML as the wood frame of a house.  This house is your web page or site, and the elements are determining its size and structure. Let’s take a look at an example:&lt;/p&gt;
+
+&lt;p&gt;This is a visualization of an HTML page structure:Visualization courtesy of www.w3schools.com&lt;/p&gt;
+
+&lt;p&gt;While only the “body” in white will be displayed by a web browser, all the elements in this example are important to a website’s markup. A browser doesn’t display the actual code, but uses them to determine how to display your content on a web page.&lt;/p&gt;
+
+&lt;p&gt;The example above isn’t exactly how the code you write will look like in your HTML document. Here is a very basic example, don’t worry if you don’t understand it just yet:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!DOCTYPE&lt;/p&gt;
+
+&lt;p&gt;html&lt;/p&gt;
+
+&lt;p&gt;&amp;gt;&lt;/p&gt;
+
+&lt;title&gt;Page Title&lt;/title&gt;
+
+&lt;h1 id=&quot;my-first-heading&quot;&gt;My First Heading&lt;/h1&gt;
+
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;What are all those words and brackets, you ask? Great question. Let’s get into the weeds and find out.&lt;/p&gt;
+
+&lt;p&gt;By definition, an HTML element is commonly made up of two tags - an opening tag and a closing tag - and all the content that lies between them. A tag is a keyword enclosed by angled brackets, such as this:&lt;/p&gt;
+
+&lt;p&gt;text&lt;/p&gt;
+
+&lt;p&gt;. For this example, the browser will only display the word “text”.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Please Note: The terms “tag” and “element” are often used interchangeably - despite the definition you just read above - but I will be using them appropriately in this post to eliminate confusion.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Tags are like containers. They tell you something about the information that lies between their opening and closing tags. The characters inside the brackets indicate the tag’s purpose. The opening and closing tags are identical, except for one detail - the closing tag includes a forward slash before the character: &amp;lt; / p &amp;gt;. This tells the browser that the tag’s work is over.&lt;/p&gt;
+
+&lt;p&gt;Here the most common tags in reference to the HTML example above:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The&lt;strong&gt; &amp;lt;!&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;DOCTYPE html&amp;gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;
+&lt;/strong&gt;declaration defines the document type to be HTML. This element helps the web browser display the web page correctly, and must be the first element in your code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The text between&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;**&lt;/em&gt; describes an HTML document. This is also a necessary tag to include in your code.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The text between &lt;strong&gt;** and **&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;provides information about the document. This will show up before the body tags and contains information about the page - like a page title tag.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The text between&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;&lt;title&gt;&amp;lt;/strong&amp;gt; and &amp;lt;strong&amp;gt;&lt;/title&gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;provides a title for the document, and is always located inside the head tags. The contents of a title tag are displayed on the top of your browser tab.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The text between&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;** and **&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;describes the visible page content. All your actual content will go inside these tags. Everything inside this element is shown inside the main browser window.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The text between&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#  and&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;describes a heading, ex: an article or page headline.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The text between&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;and &lt;em&gt;**&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;describes a paragraph.&lt;/p&gt;
+
+&lt;p&gt;An HTML attribute provides additional information about the contents of the element. Attributes appear in the opening tag of the element and are made up of two parts: a name and a value, separated by an equals sign.&lt;/p&gt;
+
+&lt;p&gt;Two of the common attributes are:&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;lang attribute&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;declares the document language and is always found in the opening HTML tag. This is important for both readers and search engines:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;html&lt;/p&gt;
+
+&lt;p&gt;lang=”en-US”&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;The first two letters indicate the language, and the second part indicate the dialect.&lt;/p&gt;
+
+&lt;p&gt;Paragraphs use the&lt;/p&gt;
+
+&lt;p&gt;tag, and in this example, we are giving the paragraph tags a &lt;strong&gt;title attribute&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;p title=”about austin=”” coding=”” academy”=””&amp;gt;
+&amp;lt;/p title=”about&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;If you hover over the paragraph with your cursor, the title will display as a tooltip.&lt;/p&gt;
+
+&lt;p&gt;HTML links are defined with the &lt;strong&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[ tag. The link address is specified in the&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;href&lt;/strong&gt; &lt;strong&gt;attribute&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;:]()&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;a&lt;/p&gt;
+
+&lt;p&gt;href=&lt;/p&gt;
+
+&lt;p&gt;”]()&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;//www.austincodingacademy.com/&quot;&gt;//www.austincodingacademy.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;”&lt;/p&gt;
+
+&lt;p&gt;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Link text goes here&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;/a&lt;/p&gt;
+
+&lt;p&gt;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;The&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;img attribute&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is used to define HTML images. In this example,&lt;/p&gt;
+
+&lt;p&gt;the filename of the source (&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;src&lt;/strong&gt;), and the size of the image (&lt;strong&gt;width&lt;/strong&gt;and &lt;strong&gt;height&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;) are all provided as&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;attributes&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;img src=”ACAlogo.jpg” width=”160” height=”160”&amp;gt;&amp;lt;/img src=&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;alt&lt;/strong&gt; &lt;strong&gt;attribute&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;declares an alternative text to be used, when an HTML element cannot be displayed by the web browser (like a broken image or table):&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;img src=”ACAlogo.jpg” alt=”Austin Coding Academy logo” width=”160” height=”160”&amp;gt;&amp;lt;/img src=&lt;/p&gt;
+
+&lt;p&gt;Whether you are web designer looking to add to your skill set, or someone looking to change careers into the wild world of web development, learning how to write HTML code can be a rewarding and lucrative experience. There are several &lt;a href=&quot;//www.austincodingacademy.com/blog/5-free-coding-we…without-the-cost/&quot; target=&quot;_blank&quot;&gt;websites that will teach you how to code&lt;/a&gt; for free! But they will only take you so far…&lt;/p&gt;
+
+&lt;p&gt;If you are interested in learning how to use and master HTML without quitting your job, and you live in the Austin area, &lt;a href=&quot;//www.austincodingacademy.com/front-end/?&amp;amp;utm_source=Blog&amp;amp;utm_medium=Tactical&amp;amp;utm_content=Control&amp;amp;utm_campaign=14554&quot;&gt;check out when next session &lt;/a&gt;begins in May and save your spot in class.&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">This is the first week in Austin Coding Academy’s spring session, and a slew of new students began down the road to learning front-end web development over the next 10 weeks. That journey starts with an introduction to the basics: HTML and CSS.</summary></entry><entry><title type="html">What Is JSON and What Is JSON Used For?</title><link href="https://austincodingacademy.com/uncategorized/2016/11/29/what-is-json.html" rel="alternate" type="text/html" title="What Is JSON and What Is JSON Used For?" /><published>2016-11-29T17:53:26-06:00</published><updated>2016-11-29T17:53:26-06:00</updated><id>https://austincodingacademy.com/uncategorized/2016/11/29/what-is-json</id><content type="html" xml:base="https://austincodingacademy.com/uncategorized/2016/11/29/what-is-json.html">&lt;h1 id=&quot;what-is-json-and-what-is-it-used-for&quot;&gt;What is JSON and What is it used for?&lt;/h1&gt;
+
+&lt;p&gt;By Joseph McCullough&lt;/p&gt;
+
+&lt;p&gt;Whether you are a front end or back end developer, understanding the purpose and uses of JSON will enable you to easily add stunning functionality to your web applications. Knowing when to use JSON is practically a prerequisite for any web development position.&lt;/p&gt;
+
+&lt;p&gt;WHAT EXACTLY IS JSON?
+JSON stands for JavaScript Object Notation. JSON is a lightweight data-interchange format. We can represent any data in the JSON format if we can boil down the data to its core attributes.&lt;/p&gt;
+
+&lt;p&gt;WHAT DOES JSON LOOK LIKE?&lt;/p&gt;
+
+&lt;p&gt;Suppose we’re developing software for a grocery store. We’ve been tasked with periodically sending the store’s inventory to a centralized server. The store’s inventory consists of “products”. And each product has the following attributes:&lt;/p&gt;
+
+&lt;p&gt;product name
+price
+number in stock
+Data for a few example products are listed below:&lt;/p&gt;
+
+&lt;p&gt;2 Liter Dr. Pepper
+Price: $1.99
+Quantity in stock: 10&lt;/p&gt;
+
+&lt;p&gt;Snickers
+Price: $0.99
+Quantity in stock: 5&lt;/p&gt;
+
+&lt;p&gt;Bottled Water
+Price: $1.49
+Quantity in stock: 8&lt;/p&gt;
+
+&lt;p&gt;Here’s how that data would look represented as JSON[/cs_text][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][x_code]{
+“inventory”: {
+“products”: [
+{
+“name”: “Dr. Pepper 2 Liter”,
+“price”: 1.99,
+“quantity”: 10
+},
+{
+“name”: “Snickers”,
+“price”: 0.99,
+“quantity”: 5
+},
+{
+“name”: “Bottled Water”,
+“price”: 1.49,
+“quantity”: 8
+}
+]
+}
+}[/x_code][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][cs_text]&lt;/p&gt;
+
+&lt;h1 id=&quot;why-is-json-useful&quot;&gt;WHY IS JSON USEFUL?&lt;/h1&gt;
+
+&lt;p&gt;JSON is language-agnostic. Even though JSON stands for JavaScript Object Notation, many languages beyond JavaScript understand JSON. There are numerous languages that contain libraries for not only representing data in the JSON format (known as JSON encoding), but also for taking JSON and converting the JSON into data within the program (known as JSON decoding). Some languages with JSON support (either natively or through libraries) that come to mind include&lt;/p&gt;
+
+&lt;p&gt;JavaScript
+Python
+Ruby
+Go
+C/C++
+Java
+And wayyyyyyyy more!&lt;/p&gt;
+
+&lt;p&gt;Consequently, it’s easy to have programs written in different languages communicate with each other. If a server written in Python wants to send data to a server written in Java, the Python server just has to JSON encode any data it wants to send. Then the Java Server, upon receiving the JSON, only has to JSON decode the string in order to have access to the data items within the JSON. Generally, the encoding and decoding processes are extremely simple.&lt;/p&gt;
+
+&lt;p&gt;In Python, for example, the process for converting a JSON string into its associated data takes only a couple of lines of code![/cs_text][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][x_code]»&amp;gt; import json
+»&amp;gt; json_str = ‘{“x”: 15,”y”: 30}’
+»&amp;gt; data = json.loads(json_str)
+»&amp;gt; data[‘x’] + data[‘y’]
+45&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s the same operation in PHP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- ?php $json_str = '{&quot;x&quot;: 15,&quot;y&quot;: 30}'; $data = json_decode($json_str); echo $data-&gt;x + $data-&gt;y;&lt;br ? --&gt;
+&lt;p&gt;// 45
+?&amp;gt;[/x_code][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][cs_text]&lt;/p&gt;
+
+&lt;h1 id=&quot;where-is-json-used&quot;&gt;WHERE IS JSON USED?&lt;/h1&gt;
+
+&lt;p&gt;JSON can be used in nearly any scenario where two services are communicating with each other. All that’s required is that&lt;/p&gt;
+
+&lt;p&gt;the service sending the data can represent the data in the JSON format
+the service recieving the data can convert data represented at JSON into data usable throughout the application.
+In web development, JSON is used to facilitate communication to both internal and external services.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Internal communication&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to create a fluid user experience, web applications generally use JavaScript to fetch data from an internal server and live-update the page with the retrieved data. This strategy is known as AJAX. To quote the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/AJAX&quot;&gt;Mozilla Developer documentation&lt;/a&gt; regarding AJAX,&lt;/p&gt;
+
+&lt;p&gt;[When AJAX is used], web applications are able to make quick, incremental updates to the user interface without reloading the entire browser page. This makes the application faster and more responsive to user actions.&lt;/p&gt;
+
+&lt;p&gt;Although X in Ajax stands for XML, JSON is used more than XML nowadays because of its many advantages such as being lighter and a part of JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;External communication&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Many REST APIs, which provide awesome functionality to web applications, use JSON as the primary means of communication. Take &lt;a href=&quot;https://stripe.com&quot;&gt;Stripe&lt;/a&gt; for example. Stripe uses JSON as the way to send responses to application developers about the status of credit card transactions. In the &lt;a href=&quot;https://stripe.com/docs/api/curl#charge_object&quot;&gt;Stripe documentation&lt;/a&gt;, stripe provides an example credit card charge response so developers can predict the JSON structure their applications will recieve.&lt;/p&gt;
+
+&lt;p&gt;As another example, &lt;a href=&quot;https://www.twilio.com/&quot;&gt;Twilio&lt;/a&gt; is an SMS gateway provider that provides a simple REST API so developers can make their applications send text messages or make phone calls. In the &lt;a href=&quot;https://www.twilio.com/docs/api/rest/sending-messages#example-1&quot;&gt;Twilio documentation&lt;/a&gt;, you can see an example JSON response developers can expect once they’ve requested that Twilio send a text message to a phone.&lt;/p&gt;
+
+&lt;p&gt;Thus the combination of REST APIs and JSON means you don’t have to know how the financial sector works in order to make your application accept credit cards, nor do you need insight into the intricacies of the Telecom industry to make your application send text messages to users - you just have to understand how to send JSON and receieve JSON!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JSON REST API directory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The folks over at ProgrammableWeb have curated a list of REST APIs that communicate via JSON. Check out &lt;a href=&quot;http://www.programmableweb.com/category/all/apis?data_format=21173&quot;&gt;their directory&lt;/a&gt; to see the functionality you can add to your application just by sending and receiving JSON!&lt;/p&gt;
+
+&lt;h1 id=&quot;are-there-alternatives-to-json&quot;&gt;ARE THERE ALTERNATIVES TO JSON?&lt;/h1&gt;
+
+&lt;p&gt;XML is an alternative mechanism for describing data. XML was the previously technology of choice for sending data through web services. As JSON’s simplicity caused its popularity to rise, many developers realized XML’s capabilities were overkill for the task of simply sending and recieving small amounts of data.&lt;/p&gt;
+
+&lt;p&gt;The Udemy Blog has a great article covering the &lt;a href=&quot;https://blog.udemy.com/json-vs-xml/&quot;&gt;similarities and differences&lt;/a&gt; between XML and JSON&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SUMMARY&lt;/strong&gt;
+Thanks to the simplicity of JSON, it’s now easier than ever to facilitate communication between different web applications - regardless of what programming languages were used to write the applications.&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">What is JSON and What is it used for?</summary></entry><entry><title type="html">Critical Tips For Content Strategy: Don’t Let Them Decide Now!</title><link href="https://austincodingacademy.com/uncategorized/2016/11/29/critical-tips-for-content-strategy.html" rel="alternate" type="text/html" title="Critical Tips For Content Strategy: Don't Let Them Decide Now!" /><published>2016-11-29T17:50:11-06:00</published><updated>2016-11-29T17:50:11-06:00</updated><id>https://austincodingacademy.com/uncategorized/2016/11/29/critical-tips-for-content-strategy</id><content type="html" xml:base="https://austincodingacademy.com/uncategorized/2016/11/29/critical-tips-for-content-strategy.html">&lt;p&gt;By John Steinmeitz&lt;/p&gt;
+
+&lt;p&gt;An ongoing debate in the world of content strategy, design, experience and development is that of how much is too much. I have been around the development world for a while now and have seen many philosophies implemented. The basic question is “Do you want to let the audience make a decision about you, your product or your service just by reading your information?”&lt;/p&gt;
+
+&lt;h1 id=&quot;history-of-content-marketing&quot;&gt;History of Content Marketing&lt;/h1&gt;
+
+&lt;p&gt;In the 90’s and early 2000’s, the thought was to shove as much information on a website or application. Back then, the average user would sit at the computer and actually read it. There was no social media, and the attention spans were longer. An analysis of web stats saw the avg time spent on pages in the 5-7 min range (for sites with good content). You also saw that you could lead a user through your site and have “deep linking” that was sometimes 8-10 levels deep.&lt;/p&gt;
+
+&lt;h1 id=&quot;current-state-of-content-marketing&quot;&gt;Current State of Content Marketing&lt;/h1&gt;
+
+&lt;p&gt;Today, attention spans are much shorter. The max time on page has shrunk to less than 2 minutes. And that is for really engaging content like blogs not for marketing sites. Social media has not just updated how we communicate with each other, but also the method in which we distribute content via sharing and hashtag trending. Most companies are starting to change the way they think of content distribution and how it fits into social media.&lt;/p&gt;
+
+&lt;p&gt;It is not just how you distribute the content but the development of that content as well. Because of how fast lives are and the quick communication channels, people are making impulse decisions even faster. This is the reason that I recommend that you do not let people make those decisions without a touchpoint. Email, SHORT online form, social, or old school phone calls. I say give them just enough information to want to talk to you in order to make a decision. Clear, concise and engaging content is one of the most important pieces to a good digital strategy. It means the difference between a 5-10% call to action ratio and generating 0 leads.&lt;/p&gt;
+
+&lt;p&gt;Align with a company that knows how to do this and does this well. At W2O, we understand the complexities of digital content strategy and know that your business objectives are not met with a one-size-fits-all solution. It’s important to understand the industry, audience and problems in order to develop the ideal solution.&lt;/p&gt;
+
+&lt;p&gt;If nothing else there is one truth in digital strategy. Engage, engage, engage. This is a social world, don’t stand in the corner while everyone else dances. Get out there.&lt;/p&gt;</content><summary type="html">By John Steinmeitz</summary></entry><entry><title type="html">Making of an Austin Coding Academy Radio Commercial</title><link href="https://austincodingacademy.com/uncategorized/2016/11/29/making-an-austin-coding-academy-radio-commercial.html" rel="alternate" type="text/html" title="Making of an Austin Coding Academy Radio Commercial" /><published>2016-11-29T17:43:49-06:00</published><updated>2016-11-29T17:43:49-06:00</updated><id>https://austincodingacademy.com/uncategorized/2016/11/29/making-an-austin-coding-academy-radio-commercial</id><content type="html" xml:base="https://austincodingacademy.com/uncategorized/2016/11/29/making-an-austin-coding-academy-radio-commercial.html">&lt;p&gt;Christopher Sica and Luke Filipos awkwardly try to find their radio voices while describing why they think it’s so important for people to learn how to code. The interesting thing to note is that when Austin Coding Academy started, the focus was on working with entrepreneurs to help them control costs with development teams. Over time, the market proved that a lot of people form Austin were stuck in jobs and careers that didn’t have the creativity or challenge that they needed. More and more employees of major Austin employers started coming to Austin Coding Academy to grow their exisiting careers: Graphic Designers started learning HTML and CSS so they could provide better wireframes to the development team. Marketing managers and marketing team members started learning HTML structure to increase their SEO skill set and out-of-the-box optimization toolbox. The list goes on and so does the most affordable and accessible coding education in Texas. Learn to code and enjoy the video![/cs_text][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][x_video_embed no_container=”false” type=”16:9”]&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/6oqbOKgkMKY&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;[/x_video_embed][/cs_column][/cs_row][/cs_section][/cs_content]&lt;/p&gt;</content><author><name>{&quot;display_name&quot;=&gt;&quot;austincode&quot;, &quot;email&quot;=&gt;&quot;luke@austincodingacademy.com&quot;, &quot;url&quot;=&gt;&quot;&quot;}</name><email>luke@austincodingacademy.com</email></author><summary type="html">Christopher Sica and Luke Filipos awkwardly try to find their radio voices while describing why they think it’s so important for people to learn how to code. The interesting thing to note is that when Austin Coding Academy started, the focus was on working with entrepreneurs to help them control costs with development teams. Over time, the market proved that a lot of people form Austin were stuck in jobs and careers that didn’t have the creativity or challenge that they needed. More and more employees of major Austin employers started coming to Austin Coding Academy to grow their exisiting careers: Graphic Designers started learning HTML and CSS so they could provide better wireframes to the development team. Marketing managers and marketing team members started learning HTML structure to increase their SEO skill set and out-of-the-box optimization toolbox. The list goes on and so does the most affordable and accessible coding education in Texas. Learn to code and enjoy the video![/cs_text][/cs_column][/cs_row][cs_row inner_container=”true” marginless_columns=”false” style=”margin: 0px auto;padding: 0px;”][cs_column fade=”false” fade_animation=”in” fade_animation_offset=”45px” fade_duration=”750” type=”1/1” style=”padding: 0px;”][x_video_embed no_container=”false” type=”16:9”]</summary></entry></feed>
