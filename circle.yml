@@ -3,4 +3,7 @@ machine:
     version: 7.2.1
 dependencies:
   post:
-    - bundle exec jekyll --config _config_austin.yml
+    - npm run build austin && npm run deploy austin
+    - npm run build houston && npm run deploy houston
+    - npm run build sanantonio && npm run deploy sanantonio
+    - npm run build dallas && npm run deploy dallas
