@@ -1,0 +1,42 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Houston Coding Academy
+email: info@houstontxcodingacademy.com
+description: >
+  At Houston Coding Academy, our job is to bring students to job-ready
+  proficiency. We offer three levels of classes for students: Intro,
+  Intermediate, and Advanced.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://houstontxcodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
+twitter: https://twitter.com/AustinCoding
+github:  https://github.com/AustinCodingAcademy
+facebook: https://www.facebook.com/AustinCodingAcademy
+instagram: https://www.instagram.com/austincodingacademy
+googleplus: https://plus.google.com/+AustinCodingAcademy
+linkedin: https://www.linkedin.com/company/austin-coding-academy
+google:
+yelp:
+coursereport:
+switchup:
+thinkful:
+phone: (832) 779-2108
+location: 177 W Gray St, Houston, TX 77019
+location_url: https://goo.gl/maps/Tw9nrQoLNgM2
+city: Houston
+paginate: 5
+next_session: April 17, 2017
+course_amount: $3,490
+track_amount: $10,470
+stack: csharp
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

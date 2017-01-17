@@ -5,10 +5,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Austin Coding Academy
 email: info@austincodingacademy.com
-description:
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  At San Antonio Coding Academy, our job is to bring students to job-ready
+  proficiency. We offer three levels of classes for students: Intro,
+  Intermediate, and Advanced.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://austincodingacademy.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter: https://twitter.com/AustinCoding
@@ -22,14 +22,15 @@ yelp:
 coursereport:
 switchup:
 thinkful:
-phone: (512) 827-8498
-location: 701 Brazos St, 16th Floor, Austin, TX 78701
-location_url: https://goo.gl/maps/Kgtw4DtyH4n
-city: Austin
+phone: (210) 951-0407
+location: 600 Soledad St, San Antonio, TX 78205
+location_url: https://goo.gl/maps/So4e2w6Y6BB2
+city: San Antonio
 paginate: 5
-next_session: January 16th, 2017
-course_amount: $2990
-track_amount: $8970
+next_session: January 24, 2017
+course_amount: $2,490
+track_amount: $8,970
+stack: csharp
 
 # Build settings
 markdown: kramdown

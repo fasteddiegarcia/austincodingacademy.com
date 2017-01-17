@@ -81,4 +81,4 @@ I asked her what coding did to her life. 'Transformed it!', she responded passio
 
 
 
-Learn more about [Austin Coding Academy](//www.austincodingacademy.com/)'s coding program and revamp your career with our HTML/CSS and our Javascript class.
+Learn more about [Austin Coding Academy](//www.austincodingacademy.com/)'s coding program and revamp your career with our HTML/CSS and our JavaScript class.

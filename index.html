@@ -26,7 +26,8 @@ scripts: |
       slidesToShow: 3,
       slidesToScroll: 3,
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 10000,,
+      initialSlide: Math.floor(Math.random() * ($('.reviews .review').length - 0))
       responsive: [
         {
           breakpoint: 992,
@@ -46,7 +47,7 @@ scripts: |
         }
       ]
     });
-    $('.reviews div.hidden').removeClass('hidden');
+      $('.reviews .review').removeClass('hidden');
   });
   </script>
 ---
@@ -157,38 +158,7 @@ scripts: |
             </div>
             <div class="panel-body">
               <h5 class="text-center">If you're short on time or have questions you want answered, fill this out and we'll be in touch.</h5>
-              <form name="insightly_web_to_lead" action="https://googleapps.insight.ly/WebToLead/Create" method="post">
-                <input type="hidden" name="formId" value="P26VnYXCPMyqu/336CA7sA==" />
-                <input type="hidden" id="insightly_ResponsibleUser" name="ResponsibleUser" value="1270111"/>
-                <input type="hidden" id="insightly_LeadSource" name="LeadSource" value="1522626"/>
-                <div class="row">
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="insightly_firstName">First Name: </label>
-                      <input id="insightly_firstName" class="form-control" name="FirstName" type="text"/>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="insightly_lastName">Last Name: </label>
-                      <input id="insightly_lastName" class="form-control" name="LastName" type="text"/>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="email">Email: </label>
-                      <input id="insightly_Email" class="form-control" name="email" type="text"/>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="phone">Phone: </label>
-                      <input id="insightly_Phone" class="form-control" name="phone" type="text"/>
-                    </div>
-                  </div>
-                </div>
-                <input type="submit" value="Submit" class="btn btn-info btn-block">
-              </form>
+              {% include capture.html %}
             </div>
           </div>
         </div>
@@ -403,38 +373,7 @@ scripts: |
             </div>
             <div class="panel-body">
               <h5 class="text-center">Fill out this form to start your application</h5>
-              <form name="insightly_web_to_lead" action="https://googleapps.insight.ly/WebToLead/Create" method="post">
-                <input type="hidden" name="formId" value="P26VnYXCPMyqu/336CA7sA==" />
-                <input type="hidden" id="insightly_ResponsibleUser" name="ResponsibleUser" value="1270111"/>
-                <input type="hidden" id="insightly_LeadSource" name="LeadSource" value="1522626"/>
-                <div class="row">
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="insightly_firstName">First Name: </label>
-                      <input id="insightly_firstName" class="form-control" name="FirstName" type="text"/>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="insightly_lastName">Last Name: </label>
-                      <input id="insightly_lastName" class="form-control" name="LastName" type="text"/>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="email">Email: </label>
-                      <input id="insightly_Email" class="form-control" name="email" type="text"/>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-md-6 margin-0">
-                    <div class="form-group">
-                      <label for="phone">Phone: </label>
-                      <input id="insightly_Phone" class="form-control" name="phone" type="text"/>
-                    </div>
-                  </div>
-                </div>
-                <input type="submit" value="Submit" class="btn btn-info btn-block">
-              </form>
+              {% include capture.html %}
             </div>
           </div>
         </div>
@@ -449,7 +388,7 @@ scripts: |
           <br />
           <div class="reviews">
             {% for review in site.data.reviews %}
-            <div class="hidden">
+            <div class="hidden review">
               <center>
                 <img src="{{ review.img }}" />
               </center>

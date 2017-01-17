@@ -104,4 +104,4 @@ Gizem is now working as a platform UX/UI designer at [Continuum Analytics](https
 
 
 
-Learn more about [Austin Coding Academy](//www.austincodingacademy.com/)'s coding program and revamp your career with our HTML/CSS and our Javascript class.
+Learn more about [Austin Coding Academy](//www.austincodingacademy.com/)'s coding program and revamp your career with our HTML/CSS and our JavaScript class.

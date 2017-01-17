@@ -56,7 +56,7 @@ The curriculum was written by developer friends who agreed to teach part-time. A
 
 **Practical classes for part time learners**
 
-The first class is designed for beginners, teaching them the infrastructure of the web while building websites in HTML, CSS, Bootstrap, jQuery, and a bit of Javascript. Soon after completing the first semester, they realized their students were hooked, and the intermediate and advanced classes were soon introduced.
+The first class is designed for beginners, teaching them the infrastructure of the web while building websites in HTML, CSS, Bootstrap, jQuery, and a bit of JavaScript. Soon after completing the first semester, they realized their students were hooked, and the intermediate and advanced classes were soon introduced.
 
 This extended program provides an opportunities to jump into a development career. The part-time classes are a perfect fit for students with busy lives, full time jobs, families and other commitments. After two years, ACA has built an excellent curriculum and a personalised approach to teaching.
 

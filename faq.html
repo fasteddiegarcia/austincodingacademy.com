@@ -11,25 +11,14 @@ scripts: |
       autoplay: true,
       autoplaySpeed: 10000
     });
-    $('h3.hidden').removeClass('hidden');
+    $('.reviews .review').removeClass('hidden');
   });
   </script>
 ---
 <div id="faq">
   <section>
     <div class="container">
-      <div class="reviews">
-        {% for review in site.data.reviews %}
-        <h3 class="hidden">
-          <div class="pull-left" style="margin-right: 10px">
-            <img src="{{review.img}}">
-          </div>
-          {{ review.name }}
-          <br />
-          <small class="text-white">{{ review.review }}</small>
-        </h3>
-        {% endfor %}
-      </div>
+      {% include reviews.html %}
     </div>
   </section>
   <section>

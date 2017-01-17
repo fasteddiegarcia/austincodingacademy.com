@@ -2,7 +2,7 @@
 layout: post
 
 
-title: How To Create a Digital Javascript Clock In Three Easy Steps
+title: How To Create a Digital JavaScript Clock In Three Easy Steps
 author:
   display_name: austincode
 

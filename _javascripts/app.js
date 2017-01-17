@@ -4,5 +4,5 @@ require('bootstrap.collapse');
 require('bootstrap.dropdown');
 require('bootstrap.transition');
 require('slick-carousel');
-
 require('typed.js');
+require('jquery-form');
