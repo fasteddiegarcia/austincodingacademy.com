@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>How To Create a Digital JavaScript Clock In Three Easy Steps</title>
+  <link href="/assets/stylesheets/app.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="well well-sm text-right">
+      <div class="container">
+        <a href="https://goo.gl/maps/Kgtw4DtyH4n" class="link-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;701 Brazos St, 16th Floor, Austin, TX 78701</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="link-white"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;Request Syllabus</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="mailto:info@austincodingacademy.com" class="link-white" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:(512) 827-8498" class="link-white"><i class="fa fa-phone"></i>&nbsp;&nbsp;(512) 827-8498</a>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img alt="Brand" src="/assets/images/ACA_standard_stacked.png">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/enterprise.html">ENTERPRISE</a></li>
+          <li><a href="/hire.html">HIRE A GRAD</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/courses.html">Overview</a></li>
+              <li><a href="/intro.html">Intro - Full Stack Web Development 101</a></li>
+              <li><a href="/intermediate.html">Intermediate - Full Stack Web Development 102</a></li>
+              <li><a href="/advanced.html">Advanced - Full Stack Web Development 103</a></li>
+            </ul>
+          </li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/blog.html">BLOG</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+          <li><a href="/application.html" class="btn btn-success">APPLY NOW</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
+
+  <main>
+    <div id="post">
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h1>How To Create a Digital JavaScript Clock In Three Easy Steps</h1>
+              <br />
+              <p>In this intermediate tutorial, you will learn how to create a digital JavaScript clock for your web page in three easy steps.</p>
+
+<p>Many, many moons ago in a state of mind far, far away from my current, I was introduced to the Back to the Future movies, and boy did it leave an impression on my young, bizarre mind.</p>
+
+<p>While I won’t go as far as to say that it made me the man I am today, it did inspire my passion for time travel, and teach me some valuable “adulting” skills, like PG-13-level cussing, sliding sunglasses down the bridge of my nose like a bad ass, and, most importantly, keeping track of time and being punctual.</p>
+
+<p>After that fateful day, I was obsessed with time, and more specifically, being on time. I wore a watch everywhere, even in the shower. My first watch came from a happy meal, and while it was chewed up by my dog within days, I was never discouraged. I still have most of my watches from throughout the years, those of which survived my wife’s meticulous purging of unacceptable nostalgia. She really does bring out the best in me… (love you, babe!)</p>
+
+<p>Whether or not you share my affinity for Back to the Future and punctuality is beside the point. You’re here for the JavaScript, so let’s fire up the flux capacitor and take this code to 88 MPH, shall we?!</p>
+
+<p><strong>“WHAT THE HELL IS A GIGAWATT?!” LET’S GET STARTED…</strong></p>
+
+<p>One of the main recurring themes in the Back to the Future trilogy looks at how changing past events manipulate future history, and time itself. This isn’t quite a direct parallel with JavaScript, but for the sake of this tutorial, let’s connect the dots.</p>
+
+<p>We use JavaScript to manipulate a web page in real-time, listening to events that trigger a change in an HTML element or provide interactive elements on a page, like a working digital clock. This intermediate-level tutorial on JavaScript shows you how to do just that. And if my calculations are correct, once this code is properly set up on your webpage, you are going to see some seriously cool stuff.</p>
+
+<p>[/cs_text][x_custom_headline level=”h2” looks_like=”h3” accent=”false”]STEP 1: HOW TO GET THE CURRENT TIME
+[/x_custom_headline][cs_text]The first step we need to do is retrieve the current time. We can do this by using JavaScript’s Date class. First, create a new Date object with no parameters, which gives us a Date object containing the current date and time on the web visitor’s computer:</p>
+
+<p><code class="highlighter-rouge">var currentTime = new Date();</code></p>
+
+<p>Next, we extract the hours, minutes, and seconds components of the current time from our Date object.
+<code class="highlighter-rouge">var currentHours = currentTime.getHours();
+var currentMinutes = currentTime.getMinutes();
+var currentSeconds = currentTime.getSeconds();</code>[/cs_text][x_custom_headline level=”h2” looks_like=”h3” accent=”false”]STEP 2: HOW TO FORMAT THE TIME
+[/x_custom_headline][cs_text]We now have the three main values of time, so let’s format them into a string for our web page. For this tutorial, we will format for a 12-hour clock, using “HH:MM:SS XX”, where XX is either “AM” or “PM”.</p>
+
+<p>First, we’ll add a leading zero to the minutes and seconds, if required:</p>
+
+<p><code class="highlighter-rouge">currentMinutes = ( currentMinutes &lt; 10 ? "0" : "" ) + currentMinutes;
+currentSeconds = ( currentSeconds &lt; 10 ? "0" : "" ) + currentSeconds;</code></p>
+
+<p>The ? and : symbols used above comprise the ternary operator, a special operator that returns the value before the colon if the condition before the query (?) is true, or the value after the colon if the condition is false. It’s a great way to write a shorthand “if” block if you nneed to return a single value.</p>
+
+<p>Next, let’s set a new variable, timeOfDay, to “AM” or “PM”, and subtract 12 from the hours component in order to convert it to a 12-hour format. We will also want the hours component to show “12” instead of “0”, so we need to add a check for this as well:</p>
+
+<p><code class="highlighter-rouge">var timeOfDay = ( currentHours &lt; 12 ) ? "AM" : "PM";</code></p>
+
+<p>currentHours = ( currentHours &lt; 12 ) ? currentHours - 12 : currentHours;</p>
+
+<p>currentHours = ( currentHours == 0 ) ? 12 : currentHours;</p>
+
+<p>Now, let’s connect all our components into a single string, using the format “HH:MM:SS XX”.</p>
+
+<p>var currentTimeString = currentHours + “:” + currentMinutes + “:” + currentSeconds + “ “ + timeOfDay;</p>
+
+<p>Now that we have our time string ready for all the world to see, we need to add it to our web page. To do this, we need to create a span container in your HTML to hold the time display.</p>
+
+<p><code class="highlighter-rouge">&lt;span id="clock"&gt;&amp;amp;nsbsp;&amp;gt;span&amp;gt;</code></p>
+
+<p>I know what you’re thinking, “Why the @#$% did you put the $nsbsp; in there?!”. By placing the inside the span element, we created a child text node for the span in the DOM. Place this span on your page where you would like the JavaScript clock to appear.</p>
+
+<p>We can then populate the span container with the time string by retrieving this node and then setting its NodeValue property. Check it out:</p>
+
+<p><code class="highlighter-rouge">document.getElementById("clock").firstChild.nodeValue = currentTimeString;</code></p>
+
+<p><strong>“YOU BUILT A TIME MACHINE… OUT OF A DELOREAN?!”</strong>
+Now that we’ve finished our JavaScript code, we need to wrap it in a JavaScript function, updateClock() and place it in the head element of our web page:</p>
+
+<p>`<script type="text/javascript"><br />
+&lt;!--&lt;/code&gt;&lt;/p&gt;</script></p>
+<p><code>function updateClock ( )<br />
+{<br />
+ var currentTime = new Date ( );&lt;/p&gt;
+<p> var currentHours = currentTime.getHours ( );<br />
+ var currentMinutes = currentTime.getMinutes ( );<br />
+ var currentSeconds = currentTime.getSeconds ( );</p>
+<p> // Pad the minutes and seconds with leading zeros, if required<br />
+currentMinutes = ( currentMinutes &lt; 10 ? "0" : "" ) + currentMinutes;<br />
+currentSeconds = ( currentSeconds &lt; 10 ? "0" : "" ) + currentSeconds;</p>
+<p> // Choose either "AM" or "PM" as appropriate<br />
+ var timeOfDay = ( currentHours &lt; 12 ) ? "AM" : "PM";</p>
+<p> // Convert the hours component to 12-hour format if needed<br />
+ currentHours = ( currentHours &gt; 12 ) ? currentHours - 12 : currentHours;</p>
+<p> // Convert an hours component of "0" to "12"<br />
+ currentHours = ( currentHours == 0 ) ? 12 : currentHours;</p>
+<p> // Compose the string for display<br />
+ var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;</p>
+<p>// Update the time display<br />
+ document.getElementById("clock").firstChild.nodeValue = currentTimeString;<br />
+}</p>
+<p>// --&gt;<br />
+&lt;/script&gt;`
+
+In order to make our JavaScript clock update every second, we need to use the Window.setInterval() method from within the page's body tag to call our updateClock() function once per second. We also need to call updateClock() the moment the page loads, so that clock appears immediately. Simply drop this code into your body tag, like this:
+
+``
+
+The only thing left for you to do is add your own CSS to the clock container to make it look the way you want and you are done. Well done, friend. I think you earned tomorrow's hangover.
+
+**SAY 'HI' TO YOUR MOM FOR ME...**
+
+And that's how you create a digital JavaScript clock. Feel free to use any of the above JavaScript code to make your own digital clock. Use your own CSS styling or change the code to display military time, or not. Go crazy, you sexy coding beast.
+
+Cheers,
+
+Master Gonzo
+
+"Come for the code, stay for the pop culture nostalgia."
+</p></code></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+  </main>
+  <footer>
+  <nav class="navbar navbar-default navbar-static-bottom">
+    <div class="container">
+      <div class='row'>
+        <div class="col-xs-12 text-center">
+          <ul class="list-inline lead">
+            <li><small><a href="#">APPLICATION</a></small></li>
+            <li><small><a href="#">BLOG</a></small></li>
+            <li><small><a href="#">COURSES</a></small></li>
+            <li><small><a href="#">EMPLOYERS</a></small></li>
+            <li><small><a href="#">FAQ</a></small></li>
+            <li><small><a href="#">PRESS</a></small></li>
+          </ul>
+          <ul class="list-inline">
+            <li><a href="https://www.facebook.com/AustinCodingAcademy"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+            <li><a href="https://plus.google.com/+AustinCodingAcademy"><i class="fa fa-google-plus-official fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/austincodingacademy"><i class="fa fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/AustinCoding"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/austin-coding-academy"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          Austin Coding Academy
+          <br />
+          &copy; 2017
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+
+  <!-- Start of Rocket.Chat Livechat Script -->
+  <script type="text/javascript">
+  (function(w, d, s, u) {
+  	w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+  	var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+  	j.async = true; j.src = 'https://chat.austincodingacademy.com/packages/rocketchat_livechat/assets/rocket-livechat.js';
+  	h.parentNode.insertBefore(j, h);
+  })(window, document, 'script', 'https://chat.austincodingacademy.com/livechat');
+  </script>
+  <!-- End of Rocket.Chat Livechat Script -->
+  <script type="text/javascript" src="/assets/javascripts/app.js"></script>
+  
+</body>
+</html>

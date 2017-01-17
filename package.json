@@ -1,0 +1,71 @@
+{
+  "name": "austincodingacademy.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --output-style compressed -o assets/stylesheets/ _sass/app.scss --source-map=true",
+    "js": "mkdir -p assets/javascripts && browserify _javascripts/app.js | uglifyjs -c > assets/javascripts/app.js",
+    "images": "imagemin _images/* --out-dir=assets/images",
+    "build": "npm run sass && npm run js && npm run images",
+    "postinstall": "jekyll build && npm run build",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "sass": {
+      "patterns": [
+        "sass"
+      ],
+      "extensions": "scss",
+      "inherit": true
+    },
+    "js": {
+      "patterns": [
+        "_javascripts"
+      ],
+      "extensions": "js",
+      "inherit": true
+    },
+    "images": {
+      "patterns": [
+        "_images"
+      ],
+      "extensions": "jpg,jpeg,png,tiff,gif,svg",
+      "inherit": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinCodingAcademy/austincodingacademy.github.io.git"
+  },
+  "author": "Kevin Colten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinCodingAcademy/austincodingacademy.github.io/issues"
+  },
+  "homepage": "https://github.com/AustinCodingAcademy/austincodingacademy.github.io#readme",
+  "dependencies": {
+    "bootstrap-block-grid": "^1.1.7",
+    "bootstrap-sass": "^3.3.7",
+    "browserify": "^13.3.0",
+    "font-awesome": "^4.7.0",
+    "imagemin-cli": "^3.0.0",
+    "jquery": "^3.1.1",
+    "jquery-form": "^3.50.0",
+    "node-sass": "^4.3.0",
+    "pygments-rouge-css": "^0.1.0",
+    "slick-carousel": "^1.6.0",
+    "typed.js": "^1.1.1",
+    "uglifyjs": "^2.4.10"
+  },
+  "browser": {
+    "bootstrap.button": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/button.js",
+    "bootstrap.collapse": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/collapse.js",
+    "bootstrap.dropdown": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js",
+    "bootstrap.transition": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
+    "jquery-form": "./node_modules/jquery-form/jquery.form.js"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.1.7"
+  }
+}
