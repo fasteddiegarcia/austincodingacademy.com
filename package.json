@@ -1,5 +1,5 @@
 {
-  "name": "austincodingacademy.github.io",
+  "name": "austincodingacademy.com",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -12,7 +12,7 @@
     "build-houston": "bundle exec jekyll build --config _config_houston.yml && echo 'houstontxcodingacademy.com' >> _site/CNAME",
     "build-sanantonio": "bundle exec jekyll build --config _config_sanantonio.yml && echo 'sanantoniocodingacademy.com' >> _site/CNAME",
     "build-dallas": "bundle exec jekyll build --config _config_dallas.yml && echo 'dallascodingacademy.com' >> _site/CNAME",
-    "deploy-austin": "gh-pages --repo 'git@github.com:AustinCodingAcademy/austincodingacademy.github.io.git' -d ./_site",
+    "deploy-austin": "gh-pages --repo 'git@github.com:AustinCodingAcademy/austincodingacademy.com.git' -d ./_site",
     "deploy-houston": "gh-pages --repo 'git@github.com:AustinCodingAcademy/houstontxcodingacademy.com.git' -d ./_site",
     "deploy-sanantonio": "gh-pages --repo 'git@github.com:AustinCodingAcademy/sanantoniocodingacademy.com.git' -d ./_site",
     "deploy-dallas": "gh-pages --repo 'git@github.com:AustinCodingAcademy/dallascodingacademy.com.git' -d ./_site",
@@ -43,14 +43,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AustinCodingAcademy/austincodingacademy.github.io.git"
+    "url": "git+https://github.com/AustinCodingAcademy/austincodingacademy.com.git"
   },
   "author": "Kevin Colten",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AustinCodingAcademy/austincodingacademy.github.io/issues"
+    "url": "https://github.com/AustinCodingAcademy/austincodingacademy.com/issues"
   },
-  "homepage": "https://github.com/AustinCodingAcademy/austincodingacademy.github.io#readme",
+  "homepage": "https://github.com/AustinCodingAcademy/austincodingacademy.com#readme",
   "dependencies": {
     "bootstrap-block-grid": "^1.1.7",
     "bootstrap-sass": "^3.3.7",
