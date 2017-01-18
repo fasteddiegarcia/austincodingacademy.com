@@ -43,3 +43,4 @@ exclude:
   - node_modules
   - package.json
   - circle.yml
+  - vendor
