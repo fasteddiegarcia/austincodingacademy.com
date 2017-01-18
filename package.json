@@ -12,10 +12,10 @@
     "build-houston": "bundle exec jekyll build --config _config_houston.yml",
     "build-sanantonio": "bundle exec jekyll build --config _config_sanantonio.yml",
     "build-dallas": "bundle exec jekyll build --config _config_dallas.yml",
-    "deploy-austin": "gh-pages --repo 'git@github.com:AustinCodingAcademy/austincodingacademy.github.io.git' -d ./_site",
-    "deploy-houston": "gh-pages --repo 'git@github.com:AustinCodingAcademy/houstoncodingacademy.com.git' -d ./_site",
-    "deploy-sanantonio": "gh-pages --repo 'git@github.com:AustinCodingAcademy/sanantoniocodingacademy.com.git' -d ./_site",
-    "deploy-dallas": "gh-pages --repo 'git@github.com:AustinCodingAcademy/dallascodingacademy.com.git' -d ./_site",
+    "deploy-austin": "gh-pages --repo 'https://github.com/AustinCodingAcademy/austincodingacademy.github.io.git' -d ./_site",
+    "deploy-houston": "gh-pages --repo 'https://github.com/AustinCodingAcademy/houstoncodingacademy.com.git' -d ./_site",
+    "deploy-sanantonio": "gh-pages --repo 'https://github.com/AustinCodingAcademy/sanantoniocodingacademy.com.git' -d ./_site",
+    "deploy-dallas": "gh-pages --repo 'https://github.com/AustinCodingAcademy/dallascodingacademy.com.git' -d ./_site",
     "watch": "npm-watch"
   },
   "watch": {
