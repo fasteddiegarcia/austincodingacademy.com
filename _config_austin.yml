@@ -4,6 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Austin Coding Academy
+header: Austin's Best Value in Coding Education 
 email: info@austincodingacademy.com
 description: >
   At Austin Coding Academy, our job is to bring students to job-ready
