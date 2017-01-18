@@ -3,10 +3,10 @@
   outline-style: none;
 }
 
-$fa-font-path: "/node_modules/font-awesome/fonts" !default;
-$slick-font-path: "/node_modules/slick-carousel/slick/fonts" !default;
+$fa-font-path: "/assets/fonts" !default;
+$slick-font-path: "/assets/fonts" !default;
 $slick-font-family: "Lato" !default;
-$slick-loader-path: "/node_modules/slick-carousel/slick/" !default;
+$slick-loader-path: "/assets/images/" !default;
 
 @import
   url('https://fonts.googleapis.com/css?family=Lato'),
